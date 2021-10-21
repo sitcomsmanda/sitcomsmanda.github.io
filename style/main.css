@@ -4,5 +4,17 @@ h1 {
     font-size: 36px;
     font-weight: bold;
 
-    padding: 100px 0;
+}
+
+.search-box {
+    width: 800px;
+    margin: auto;
+    padding: 16px;
+    text-align: center;
+}
+
+.projects {
+    width: 800px;
+    margin: auto;
+    border: 3px solid black;
 }
