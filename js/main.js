@@ -23,7 +23,7 @@ body.addEventListener('keyup', function(e) {
             }
         }
 
-        // Remove the value if user press backspace
+        // Remove the value if user press Escape
         if(e.code === "Escape"){
             e.target.value = '';
             li.forEach(x => x.style.display = "");
