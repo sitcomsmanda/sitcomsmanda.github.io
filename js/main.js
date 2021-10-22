@@ -1,15 +1,16 @@
 const body = document.querySelector('body');
 
-
 body.addEventListener('keyup', function(e) {
-
+    
     // Define only for the input with search class
     if (e.target.classList.contains('search')){
         // Select and put it in a variables
         const search = e.target.value.toUpperCase();
         const li = document.querySelectorAll('.project');
 
+        // loop through the list
         for (let i = 0; i < li.length; i++){
+            // select the text content
             title = li[i].querySelector('.title');
             sub = li[i].querySelector('.sub-title');
             desc = li[i].querySelector('.desc');
