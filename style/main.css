@@ -112,6 +112,7 @@ body {
     margin: auto;
     border: 2px solid var(--tertiary);
     border-radius: 20px;
+    overflow: auto;
 }
 
 
