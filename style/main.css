@@ -11,8 +11,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Lato&family=Poppins&display=swap');
 
 :root {
-    --main: #000;
-
+    --primary: #FFFFFF;
+    --secondary1: #E5E5E5;
+    --secondary2: #6F686D;
+    --tertiary: #000000;
+    --extra: #23CE6B;
 }
 
 
