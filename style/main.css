@@ -1,10 +1,25 @@
-h1 {
-    text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 36px;
-    font-weight: bold;
+/*
+    !NOTES:
+
+
+    Fonts:
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Bitter', serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Lato&family=Poppins&display=swap');
+
+:root {
+    --main: #000;
 
 }
+
+
+
+
+
+
 
 .search-box {
     width: 800px;
