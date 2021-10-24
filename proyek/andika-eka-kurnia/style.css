@@ -1,0 +1,208 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: lightgreen;
+    background-image: url("img/pattern-light.png");
+    background-size: 500px;
+}
+
+
+
+
+
+
+/*! MAIN STYLE CONTAINER */
+.main {
+    background-color: white;
+    width: 1200px;
+
+    margin: 32px auto;
+    border: 3px solid black;
+    border-radius: 15px;
+
+    position: relative;
+}
+
+
+/* HEADING */
+.heading h1 {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 32px;
+}
+
+.nav {
+    margin-left: 64px;
+}
+
+.nav-list {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.nav-link{
+    font-size: 1.5em;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+
+    transition: all 500ms;
+}
+
+.nav-link:hover {
+    color: skyblue;
+}
+
+
+/* BANNER */
+.banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin: 32px 0;
+    border-top: 3px solid darkblue;
+    border-bottom: 3px solid salmon;
+}
+
+
+
+
+
+
+/*! MAIN ARTICLE */
+.article {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 64px;
+
+    /* Clear Float */
+    overflow: auto;
+}
+
+.content {
+    padding-bottom: 32px;
+}
+
+.article h2 {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 4px;
+}
+
+.article .info-writer {
+    font-size: .8em;
+    padding: 4px;
+    margin-left: 16px;
+}
+
+.article a {
+    color: salmon;
+    text-decoration: none;
+
+    transition: all 500ms;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+
+.article p, .article li {
+    padding: 8px 4px;
+    margin-left: 16px;
+}
+
+.article li {
+    margin-left: 64px;
+}
+
+
+/* Multi-Column */
+.content {
+    width: 70%;
+    float: left;
+}
+
+.writer {
+    width: 30%;
+    float: left;
+    padding-top: 16px;
+}
+
+
+/* TENTANG PENULIS */
+.img-writer {
+    width: 110px;
+    margin-left: 16px;
+    margin-right: 7px;
+    border: 2px solid black;
+
+    float: left;
+}
+
+.writer p {
+    text-align: justify;
+}
+
+.article h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+}
+
+
+
+/*! FOOTER */
+
+.footer {
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+
+    padding: 16px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+.dec-img {
+    width:50px;
+    position: absolute;
+    top: -15px;
+    right: -20px;
+    transition: all 250ms;
+}
+
+.dec-img:hover {
+    width:75px;
+}
+
+
+
+
+
+
+
+
+
+
