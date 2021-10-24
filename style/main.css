@@ -181,6 +181,8 @@ footer {
 
     align-items: center;
     justify-content: center;
+
+    padding: 0 20px;
 }
 
 footer a {
@@ -190,4 +192,79 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive Breakpoints */
+
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 15px;
+    }
+    
+    .search-box, .projects {
+        width: 70vw;
+    }
+
+    .title {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .search-box, .projects {
+        width: 85vw;
+    }
+
+    .header {
+        font-size: 2.5em;
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 12px;
+    }
+
+    .search-box, .projects {
+        width: 90vw;
+    }
+
+    .projects {
+        padding: 20px;
+    }
+
+    .header {
+        font-size: 2.5em;
+        padding: 20px;
+    }
+
+    .title {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .sub-title {
+        font-size: 1em;
+        line-height: 14px;
+    }
+
+    .desc {
+        margin-top: -6px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 10px;
+    }
 }
