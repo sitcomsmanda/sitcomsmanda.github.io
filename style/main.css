@@ -207,14 +207,14 @@ footer a:hover {
 
 /* Responsive Breakpoints */
 /* Handphone */
-@media screen and (min-width:375px) {
+@media screen and (min-width: 375px) {
     .search-box, .projects {
         width: 90vw;
     }
 }
 
 /* Tablet */
-@media screen and (min-width:430px) {
+@media screen and (min-width: 430px) {
     .search-box, .projects {
         width: 80vw;
     }
@@ -225,7 +225,7 @@ footer a:hover {
 }
 
 /* Laptop */
-@media screen and (min-width:920px) {
+@media screen and (min-width: 920px) {
     .search-box, .projects {
         width: 70vw;
     }
@@ -243,7 +243,7 @@ footer a:hover {
 }
 
 /* 1440px monitor */
-@media screen and (min-width:1240px) {
+@media screen and (min-width: 1240px) {
     .header {
         font-size: 4em;
         margin-top: 40px;
