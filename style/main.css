@@ -1,4 +1,4 @@
-/*
+/* 
     !NOTES:
 
 
@@ -43,20 +43,22 @@ body {
 /* Main CSS */
 /* Header */
 .header {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-top: 30px;
-    padding: 20px 20px 40px;
+    line-height: 1em;
+    padding: 0 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Search Filter */
 .box {
-    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .search-box {
@@ -66,7 +68,7 @@ body {
     justify-content: space-evenly;
     box-sizing: border-box;
     padding: 2px 10px;
-    width: 60vw;
+    width: 95vw;
     border-radius: 20px;
     border: 2px solid var(--tertiary);
 }
@@ -106,9 +108,9 @@ body {
 /* Un-ordered List */
 .projects {
     box-sizing: border-box;
-    width: 60vw;
-    min-height: 65vh;
-    padding: 30px;
+    width: 95vw;
+    min-height: 60vh;
+    padding: 20px;
     margin: auto;
     border: 2px solid var(--tertiary);
     border-radius: 20px;
@@ -146,9 +148,9 @@ body {
 .sub-title {
     font-weight: inherit;
     font-family: inherit;
-    line-height: inherit;
+    line-height: 1.1em;
     font-size: 1em;
-    margin-bottom: 1px;
+    margin-bottom: 5px;
 }
 
 .desc {
@@ -168,7 +170,8 @@ body {
 
 /* Footer */
 footer {
-    font-size: inherit;
+    text-align: right;
+    font-size: .75em;
     font-family: 'Lato', sans-serif;
     word-spacing: 2px;
 
@@ -203,68 +206,74 @@ footer a:hover {
 
 
 /* Responsive Breakpoints */
-
-@media screen and (max-width: 1200px) {
-    body {
-        font-size: 15px;
+/* Handphone */
+@media screen and (min-width:375px) {
+    .search-box, .projects {
+        width: 90vw;
     }
-    
+}
+
+/* Tablet */
+@media screen and (min-width:430px) {
+    .search-box, .projects {
+        width: 80vw;
+    }
+
+    .projects {
+        min-height: 70vh;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width:920px) {
     .search-box, .projects {
         width: 70vw;
     }
 
-    .title {
-        margin-bottom: 0px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .search-box, .projects {
-        width: 85vw;
-    }
-
     .header {
-        font-size: 2.5em;
-        padding: 20px;
+        font-size: 3em;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        font-size: 1em;
     }
 
 }
 
-@media screen and (max-width: 500px) {
-    body {
-        font-size: 12px;
-    }
-
-    .search-box, .projects {
-        width: 90vw;
+/* 1440px monitor */
+@media screen and (min-width:1240px) {
+    .header {
+        font-size: 4em;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .projects {
-        padding: 20px;
+        padding: 30px;
     }
 
-    .header {
-        font-size: 2.5em;
-        padding: 20px;
+    .project {
+        margin-bottom: 40px;
     }
 
     .title {
-        margin-bottom: 0px;
-        padding-bottom: 0px;
+        font-size: 2em;
+        margin-bottom: 10px;
     }
 
     .sub-title {
-        font-size: 1em;
-        line-height: 14px;
+        font-size: 1.5em;
+        margin-bottom: 5px;
     }
 
     .desc {
-        margin-top: -6px;
+        font-size: 1em;
     }
-}
 
-@media screen and (max-width: 320px) {
-    body {
-        font-size: 10px;
+    footer {
+        font-size: 1.25em;
     }
+
 }
