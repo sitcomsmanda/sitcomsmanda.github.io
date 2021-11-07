@@ -110,7 +110,7 @@ body {
     box-sizing: border-box;
     width: 95vw;
     min-height: 60vh;
-    max-height: 95vh;
+    max-height: 80vh;
     padding: 20px;
     margin: auto;
     border: 2px solid var(--tertiary);
@@ -171,6 +171,10 @@ body {
     text-decoration: underline;
 }
 
+.title a:visited {
+    color: var(--secondary2);
+}
+
 
 
 
@@ -204,6 +208,9 @@ footer a:hover {
     text-decoration: underline;
 }
 
+footer a:visited {
+    color: var(--secondary2);
+}
 
 
 
