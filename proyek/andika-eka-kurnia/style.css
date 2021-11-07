@@ -1,208 +1,437 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+/*! CSS RESET */
 * {
-    margin:  0;
+    margin: 0;
     padding: 0;
 }
 
 
+
+/*! Parent Styles */
 html {
     scroll-behavior: smooth;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
 }
 
 body {
-    background-color: lightgreen;
+    /* Fonts */
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    padding: 20px 0;
+
     background-image: url("img/pattern-light.png");
-    background-size: 500px;
 }
 
 
 
 
 
-
-/*! MAIN STYLE CONTAINER */
+/*! Main Style */
 .main {
-    background-color: white;
-    width: 1200px;
-
-    margin: 32px auto;
+    /* Container */
+    box-sizing: border-box;
+    width: 97vw;
     border: 3px solid black;
-    border-radius: 15px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: white;
 
+    overflow: hidden;
     position: relative;
 }
 
 
-/* HEADING */
-.heading h1 {
-    font-size: 3em;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
 
-    padding: 32px;
+/*! Heading */
+.heading {
+    margin-bottom: 10px;
+}
+
+.heading h1 {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 .nav {
-    margin-left: 64px;
+    padding: 10px;
+    margin-bottom: 15px;
+    list-style-type: none;
 }
 
 .nav-list {
-    display: inline-block;
-    margin: 0 16px;
+    display: block;
+    padding: 5px;
+    margin-left: 15px;
 }
 
-.nav-link{
-    font-size: 1.5em;
-    color: darkblue;
-    font-family: Arial, Helvetica, sans-serif;
+.nav-list a {
+    font-family: inherit;
+    font-size: 1em;
     text-decoration: none;
-    font-size: 24px;
+    color: #fca311;
 
-    transition: all 500ms;
+    transition: all .3s;
 }
 
-.nav-link:hover {
-    color: skyblue;
+.nav-list a:hover {
+    color: #14213d;
+    transition: all .3s;
 }
 
-
-/* BANNER */
 .banner {
+    box-sizing: border-box;
     width: 100%;
-    height: 400px;
-    object-fit: cover;
-    margin: 32px 0;
-    border-top: 3px solid darkblue;
-    border-bottom: 3px solid salmon;
+    border-top: 3px solid #fca311;
+    border-bottom: 3px solid #14213d;
 }
 
 
 
-
-
-
-/*! MAIN ARTICLE */
+/*! Article Style */
 .article {
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 64px;
-
-    /* Clear Float */
-    overflow: auto;
+    padding: 10px;
+    margin-bottom: 50px;
 }
 
 .content {
-    padding-bottom: 32px;
-}
-
-.article h2 {
-    font-size: 2em;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-
-    padding: 4px;
-}
-
-.article .info-writer {
-    font-size: .8em;
-    padding: 4px;
-    margin-left: 16px;
+    margin-bottom: 40px;
 }
 
 .article a {
-    color: salmon;
-    text-decoration: none;
-
-    transition: all 500ms;
+    color: #14213d;
+    transition: all .3s;
 }
 
 .article a:hover {
-    text-decoration: underline;
+    color: #fca311;
+    transition: all .3s;
 }
 
-.article p, .article li {
-    padding: 8px 4px;
-    margin-left: 16px;
+.article h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    line-height: 30px;
+    text-align: left;
+
+    margin-bottom: 5px;
+
+    text-align: center;
 }
 
-.article li {
-    margin-left: 64px;
+.article .info-writer {
+    text-indent: 0;
+    font-family: inherit;
+    font-size: .75em;
+    
+    padding-bottom: 5px;
+    
+    text-align: center;
 }
 
+.content p, .content ul, .content ol {
+    font-family: inherit;
+    font-size: .9em;
+    font-weight: normal;
 
-/* Multi-Column */
-.content {
-    width: 70%;
-    float: left;
-}
-
-.writer {
-    width: 30%;
-    float: left;
-    padding-top: 16px;
-}
-
-
-/* TENTANG PENULIS */
-.img-writer {
-    width: 110px;
-    margin-left: 16px;
-    margin-right: 7px;
-    border: 2px solid black;
-
-    float: left;
-}
-
-.writer p {
+    margin-bottom: 15px;
+    
     text-align: justify;
 }
 
-.article h3 {
-    font-size: 1.5em;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 4px;
+.content ul, .content ol {
+    margin-left: 40px;
+}
+
+.content li {
+    margin-bottom: 15px;
 }
 
 
 
-/*! FOOTER */
 
-.footer {
-    background-color: black;
-    color: white;
-    font-size: 32px;
+
+
+/*! About Writer */
+.writer {
+    margin-bottom: 20px;
+}
+
+.writer h3 {
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+
+    margin-bottom: 10px;
+    
     text-align: center;
+}
 
-    padding: 16px;
-    margin: 0;
+.img-writer {
+    width: 250px;
+    box-sizing: border-box;
+    border: 3px solid #14213d;
+    
+    display: block;
+    margin: 10px auto;
+}
+
+.writer p {
+    font-size: .8em;
+    font-family: inherit;
+    margin-bottom: 15px;
+    
+    text-align: justify;
+}
+
+.social-media {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social-media li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 40px;
 }
 
 
 
-
-
-
-
+/*! Bola Voli */
 .dec-img {
-    width:50px;
+    display: block;
     position: absolute;
-    top: -15px;
-    right: -20px;
-    transition: all 250ms;
+    width: 50px;
+    bottom: 55px;
+    left: 0;
+
+    animation-name: bouncing;
+    animation-timing-function:ease-in;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: all .3s;
 }
 
 .dec-img:hover {
-    width:75px;
+    width: 70px;
+}
+
+
+/*! Footer */
+.footer {
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-size: .9em;
+    text-align: center;
+    padding: 5px;
 }
 
 
 
 
 
+/*! Responsive Breakpoints */
+/* Tablet */
+@media screen and (min-width:500px) {
+    .heading h1 {
+        font-size: 3em;
+        text-align: left;
+        margin: 20px 0px 15px 20px;
+    }
+    
+    .nav-list {
+        display: inline-block;
+    }
+
+    .article {
+        padding: 30px;
+    }
+
+    .article h2, .writer h3, p, .article .info-writer {
+        text-align: left;
+    }
+
+    .article .info-writer {
+        text-indent: 10px;
+    }
+
+    .article h2 {
+        font-size: 2em;
+        line-height: 35px;
+    }
+
+    .content p, .content ul, .content ol, .writer p {
+        font-size: 1em;
+    }
+
+    .writer h3 {
+        font-size: 1.5em;
+    }
+
+    .img-writer {
+        margin: 0;
+        margin-right: 10px;
+        float: left;
+        width: 130px;
+    }
+
+    .writer {
+        margin-bottom: 50px;
+    }
+
+    .social-media {
+        margin-top: 60px;
+    }
+
+    .social-media li {
+        margin: 0 50px;
+    }
+
+    .footer {
+        font-size: 1em;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+
+    .dec-img {
+        animation: none;
+        bottom: 10px;
+        left: 10px;
+    }
+}   
+
+/* Laptop S */
+@media screen and (min-width:850px){
+    body {
+        padding: 40px 0;
+    }
+
+    .main {
+        width: 85vw;
+        overflow: unset;
+    }
+    
+    .content, .writer {
+        float: left;
+        box-sizing: border-box;
+    }
+    
+    .content {
+        width: 65%;
+        padding-right: 10px;
+    }
+    
+    .writer {
+        width: 35%;
+        padding-left: 10px;
+    }
+
+    .dec-img {
+        top: -20px;
+        right: -20px;
+        left: unset;
+    }
+
+    .writer p {
+        font-size: .9em;
+        text-align: left;
+    }
+
+    .social-media {
+        margin-top: 30px;
+    }
+
+    .social-media li {
+        margin: 0 15px;
+    }
+}
+
+/* Laptop Large */
+@media screen and (min-width:1280px) {
+    .main {
+        width: 75vw;
+    }
+
+    .heading h1 {
+        font-size: 4em;
+        margin: 20px 0px 15px 20px;
+    }
+
+    .nav-list a {
+        font-size: 2em;
+    }
+
+    .article h2 {
+        font-size: 2.5em;
+        padding-bottom: 10px;
+    }
+    
+    .article .info-writer {
+        font-size: 1.25em;
+        padding-bottom: 20px;
+    }
+
+    .content p, .content ul, .content ol {
+        font-size: 1.5em;
+    }
+
+    .writer h3 {
+        font-size: 1.75em;
+    }
+
+    .writer p {
+        font-size: 1.25em;
+    }
+
+
+    .footer p {
+        font-size: 2em;
+    }
+
+}
 
 
 
+@keyframes bouncing {
+    0% {
+        transform: 
+            translate(-25px);
+    }
 
-
+    100%{
+        transform: translate(450px)
+            rotate(920deg);
+    }
+}
