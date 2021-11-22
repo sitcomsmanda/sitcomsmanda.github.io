@@ -1,3 +1,4 @@
 # sitcomsmanda.github.io
 
-### Discord Webhooks API Success!!! Yeay!
+## Description
+Our main website to organize our 2021 projects
