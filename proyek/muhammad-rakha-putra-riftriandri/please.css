@@ -1,0 +1,158 @@
+html{background-image: url("indah.jpg");
+background-attachment: scroll;}
+.io{width: 1440px;
+    margin: 2px auto;
+    background-color: white;}
+.h31{font-size: 90px;
+    text-align: center;
+    font-family: Bubble Shine;
+    }
+.sebelum{text-align: right;
+        text-decoration: none;}
+.l1 a{text-decoration: none;
+    color: black;
+    margin: 0px 2px;}
+.kelompok{color: black;
+        text-decoration: none;
+        margin-right: 20px;
+        }
+.l1{display: inline;
+    font-family: Delight candles;
+    font-size: 30px;
+    text-align: right;
+    margin: 0px 7px;
+    color: black;
+    }
+.gambar1{text-align: center;
+        border-style: solid;
+        border-color: salmon;
+        border-width: 10px 0px;
+        background-image: url("poli.jpeg");}
+.gambar1 img{border-color: black;
+        border-style: solid;
+        border-width: 5px;
+        width: 40%;
+        margin: 5px auto;
+        transition-duration: 1s;}
+.gambar1 img:hover{width: 1000px;
+                    height: 600px;}
+.pampres{float: left;
+        border-style: solid;
+        border-color: aqua;
+        width: 150px;
+        height: 250px;
+        margin: 5px 7px;
+        text-align: right;
+        transition-property: all;
+        transition-duration: 1s;}
+.pampres:hover{width: 250px;
+            height: 350px;
+            background-image: url("rak.jpeg");}
+.badan{border-style: solid;
+        border-width: 4px;
+        border-color: saddlebrown;
+        overflow: auto;
+        width: 500px;
+        float: right;
+        margin: 7px 4px;}
+.badan h3{color:black;
+        font-size: 20px;
+        font-family: delight candles;
+        transition-property: all;
+        transition-duration: 1s;}
+.badan h3:hover{color:black;
+                font-size: 30px;}
+#badan{color: black;
+        text-decoration: black;}
+
+.raka{color: black;
+    font-family: delight candles;
+    font-size: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    }
+.raka:hover{font-size: 25px;}
+.pan{font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    transition-property: all;
+    transition-duration: 1s;
+    }
+.ig{width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 4px;
+    transition-property: all;
+    transition-duration: 2s;}
+.rok{text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition-duration: 1s;
+    transition-property: all;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.tik{width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 4px;
+    transition-property: all;
+    transition-duration: 2s;
+    }
+.tik:hover{width: 70px;
+        height: 70px;}
+    
+.tok{font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition-duration: 1s;
+    transition-property: all;
+    }
+.tok:hover{font-size: 30px}
+    
+#buangan{text-align: center;
+        font-size: 32px;
+        background-color: black;
+        color: white;
+        }
+.akhiran{background-color: black;
+         margin: auto;
+         height: 10px;
+         width: auto;
+        }
+.instagram{transition-property: all;
+            transition-duration: 2s;
+        }
+.instagram img:hover{width: 70px;
+                    height: 70px;}
+
+.rok:hover{font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+*{  margin: 0px;
+    padding: 0px;}  
+.io{width: 100%;}
+.h31{font-size: 60px;}
+.l1 a {font-size: 20px;}
+.gambar1{width: 100%;}
+.gambar1 img{width: 80%;}
+p{font-size: 20px;}
+.badan{width: 40%;
+        height: 40%;}
+.badan h3{font-size: 16px;}
+.badan p {font-size: 14px;}
+.tiktok img {width: 50px;}
+}
+@media screen and (max-width: 800px){
+*{margin: 0px;
+  padding: 0px ;}
+.io{width: 100%;}
+.h31{font-size: 65px;}
+.gambar1 img{width: 80%;}
+.pan p{font-size: 20px;}
+.badan{width: 40%;}
+.badan h3 {font-size: 18px;}
+.badan p {font-size: 16px;}
+}
+
+
+
+
