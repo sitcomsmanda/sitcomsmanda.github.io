@@ -259,9 +259,14 @@ table {
     display: inline-block;
 }
 
+.main .sidebar li a img:hover {
+    border: 1px solid grey;
+}
+
 .main .sidebar li a img {
     width: 45px;
     height: 45px;
+    box-sizing: border-box;
 }
 
 .main .sidebar p {
@@ -343,9 +348,6 @@ h2 {
     .main .sidebar li a img {
         width: 30px;
         height: 30px;
-    }
-    .main .sidebar li a img:hover {
-        border: 1px solid grey;
     }
     .footer {
         height: 30px;
