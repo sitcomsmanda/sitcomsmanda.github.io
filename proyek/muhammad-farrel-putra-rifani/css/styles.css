@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background: #323e5f; */
+    margin: 0;
+    background: #323e5f;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+	height: 10vh;
+	width: 100%;
+    padding-right: 20px;
+	position: fixed;
+	z-index: 1;
+	align-items: center;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*  
+    background: #fff;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5); 
+*/
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.page {
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    border-radius: 10px;
+    background: white;
+    width: 250px;
+}
+
+/* HomePage */
+
+.bgf {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(bghome.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentf {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contentf .title {
+    min-height: 60%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.judul {
+    overflow: hidden;
+    height: 60%;
+    width: 80%;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.3em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.deskripsi {
+    overflow: hidden;
+    height: 60%;
+    width: 60%;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.buttontoarticle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 20vh;
+}
+
+.btn-1 {
+    width: 185px;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: #323e5f;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #eea26b;
+    transition: ease-out 0.3s;
+    font-size: 1.2rem;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-1:hover {
+    box-shadow: inset 300px 0 0 0 #eea26b;
+    cursor: pointer;
+    color: #000;
+}
+
+/* Article 1 */
+
+.ArticlePage {
+    background: #323e5f;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.article {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgmars {
+    width: 20%;
+    margin-top: 320px;
+    margin-right: 130px;
+}
+
+.teks {
+    margin-top: 260px;
+    margin-right: 80px;
+    color: #dfdfdf;
+}
+
+.teks h2 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #dfdfdf;
+    width: 100%;
+    line-height: 50px;
+}
+
+.teks p {
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    max-width: 625px;
+    font-size: 18px;
+}
+
+/* Article 2 */
+
+.teks2 {
+    margin-top: 200px;
+    margin-right: 100px;
+    color: #dfdfdf;
+}
+
+.teks2 h2 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #dfdfdf;
+    width: 100%;
+    line-height: 50px;
+}
+
+.teks2 p {
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    max-width: 625px;
+    font-size: 18px;
+}
+
+.imgmars2 {
+    width: 33%;
+    margin-top: 200px;
+    margin-right: 20px;
+}
+
+/* Article 3 */
+
+.imgmars3 {
+    width: 34%;
+    margin-top: 190px;
+    margin-right: 70px;
+}
+
+.teks3 {
+    margin-top: 200px;
+    margin-right: 170px;
+    color: #dfdfdf;
+}
+
+.teks3 h2 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #dfdfdf;
+    width: 100%;
+    line-height: 50px;
+}
+
+.teks3 p {
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    max-width: 625px;
+    font-size: 18px;
+}
+
+/* AboutPage */
+
+.about {
+    background: #323e5f;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-bottom: 20vh;
+}
+
+.about img {
+    height: auto;
+    width: 420px;
+    margin-top: 270px;
+}
+
+.about-text {
+    width: 550px;
+    margin-top: 260px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1 {
+    font-family: 'Balsamiq Sans', cursive;
+    color: #dfdfdf;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px; 
+}
+
+.about-text h5 {
+    font-family: 'Quicksand', sans-serif;
+    color: #dfdfdf;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+span {
+    color: #eea26b;
+}
+
+.about-text p {
+    font-family: 'Rubik', sans-serif;
+    color: #dfdfdf;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.btn-2 {
+    width: 185px;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: #252f49;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #eea26b;
+    transition: ease-out 0.3s;
+    font-size: 1.2rem;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-2:hover {
+    box-shadow: inset 300px 0 0 0 #eea26b;
+    cursor: pointer;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+/*! ****************************************************************/
+/*!                   Responsive Breakpoints                       */
+/*! ****************************************************************/
+
+/* Laptop 1024px */
+@media screen and (max-width:1024px) {
+    
+    /* Article 1 */
+
+    .imgmars {
+        margin-left: 80px;
+    }
+    
+    .teks {
+        margin-right: 80px;
+    }
+
+    /* Article 2 */
+
+    .imgmars2 {
+        margin-right: 80px;
+    }
+    
+    .teks2 {
+        margin-left: 80px;
+    }
+
+    /* Article 3 */
+
+    .imgmars3 {
+        margin-left: 80px;
+    }
+    
+    .teks3 {
+        margin-right: 80px;
+    }
+}
+
+/* Tablet 800px */
+@media screen and (max-width:800px) {
+
+    nav ul li{
+        padding: 0 40px;
+    }
+
+    nav ul li a {
+        font-size: 25px;
+    }
+
+    /* HomePage */
+
+    .judul {
+        font-size: 1.5em;
+    }
+
+    .deskripsi {
+        width: 80%;
+        font-size: 1.25em;
+    }
+
+    /* Article 1 */
+
+    .imgmars {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .teks {
+        margin-right: 80px;
+    }
+
+    .teks h2 {
+        font-size: 60px;
+        line-height: 75px;
+    }
+
+    .teks p {
+        max-width: 100%;
+        font-size: 24px;
+    }
+
+    /* Article 2 */
+
+    .imgmars2 {
+        margin-right: 80px;
+    }
+    
+    .teks2 {
+        margin-left: 80px;
+    }
+
+    .teks2 h2 {
+        font-size: 60px;
+        line-height: 75px;
+    }
+
+    .teks2 p {
+        max-width: 100%;
+        font-size: 24px;
+    }
+
+    /* Article 3 */
+
+    .imgmars3 {
+        margin-left: 80px;
+    }
+    
+    .teks3 {
+        margin-right: 80px;
+    }
+
+    .teks3 h2 {
+        font-size: 60px;
+        line-height: 75px;
+    }
+
+    .teks3 p {
+        max-width: 100%;
+        font-size: 24px;
+    }
+
+    /* About */
+
+    .about img {
+        margin-top: 375px;
+    }
+
+    .about-text h5 {
+        font-size: 45px;
+    }
+
+    .about-text p {
+        font-size: 24px;
+    }
+
+    .main {
+        padding-bottom: 45px;
+    }
+}
+
+/* Mobile 450px */
+@media screen and (max-width:450px) {
+    nav {
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li {
+        padding: 0 10px;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    /* HomePage */
+
+    .bgf {
+        display: block;
+    }
+
+    .contentf {
+        padding: 80px 0 30px;
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .judul {
+        display: block;
+        width: 90%;
+        font-size: 1.25em;
+        text-align: center;
+    }
+
+    .judul h1 {
+        margin: 0;
+    }
+
+    .deskripsi {
+        width: 90%;
+        font-size: 1em;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .deskripsi p {
+        margin: 0;
+    }
+
+    span:first-child {
+        display: block;
+    }
+
+    /* Article 1 */
+
+    .article {
+        margin: auto;
+        display: flex;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imgmars {
+        margin: 90px 0 0;
+        width: 50%;
+    }
+    
+    .teks {
+        width: 90%;
+        margin: 0;
+    }
+
+    .teks h2 {
+        line-height: 65px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .teks p {
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    /* Article 2 */
+
+    .ArticlePage:nth-child(4) .article {
+        flex-direction: column-reverse;
+    }
+
+    .imgmars2 {
+        margin: 50px 0 0;
+        width: 70%;
+    }
+    
+    .teks2 {
+        width: 90%;
+        margin: 0;
+    }
+
+    .teks2 h2 {
+        line-height: 65px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .teks2 p {
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    /* Article 3 */
+
+    .imgmars3 {
+        margin: 50px 0 0;
+        width: 70%;
+    }
+    
+    .teks3 {
+        width: 90%;
+        margin: 0;
+    }
+
+    .teks3 h2 {
+        line-height: 65px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .teks3 p {
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    /* About */
+
+    .main span {
+        display: inline;
+    }
+
+    .about {
+        padding-bottom: 5vh;
+    }
+    
+    .about img {
+        height: auto;
+        width: 80%;
+        margin: 75px 0 25px;
+    }
+    
+    .about-text {
+        width: 95%;
+        margin: 0;
+    }
+    
+    .main {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    
+    .about-text h1 {
+        font-size: 80px;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .about-text h5 {
+        font-size: 25px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .btn-2 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .btn-2:hover {
+        box-shadow: inset 500px 0 0 0 #eea26b;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    nav ul li a {
+        font-size: 100%;
+    }
+
+    .judul {
+        font-size: 100%;
+    }
+
+    .deskripsi {
+        font-size: 100%;
+    }
+
+    .btn-1, .btn-2 {
+        font-size: 100%;
+        width: 100%;
+    }
+
+    .teks h2, .teks2 h2, .teks3 h2 {
+        font-size: 250%;
+        line-height: normal;
+    }
+    .teks p, .teks2 p, .teks3 p {
+        font-size: 100%;
+        line-height: normal;
+    }
+
+    .about-text h1 {
+        font-size: 300%;
+    }
+
+    .about-text h5 {
+        font-size: 100%;
+    }
+
+    .about-text p {
+        font-size: 100%;
+        line-height: normal;
+    }
+}
