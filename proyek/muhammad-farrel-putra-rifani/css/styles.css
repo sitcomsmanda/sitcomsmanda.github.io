@@ -494,7 +494,7 @@ span {
     nav {
         justify-content: center;
         align-items: center;
-        height: 10vh;
+        height: 50px;
         width: 100%;
         padding-right: 0;
     }
@@ -508,6 +508,10 @@ span {
         padding: 0 10px;
     }
 
+    nav ul li a {
+        font-size: 100%;
+    }
+
     hr {
         width: 80%;
     }
@@ -515,13 +519,14 @@ span {
     /* HomePage */
 
     .bgf {
-        display: block;
+        display: flex;
+
     }
 
     .contentf {
-        padding: 80px 0 30px;
+        padding: 50px 0;
         width: 100%;
-        height: 70%;
+        height: unset;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -531,7 +536,7 @@ span {
     .judul {
         display: block;
         width: 90%;
-        font-size: 1.25em;
+        font-size: 100%;
         text-align: center;
     }
 
@@ -541,7 +546,7 @@ span {
 
     .deskripsi {
         width: 90%;
-        font-size: 1em;
+        font-size: 100%;
         text-align: center;
         padding: 20px 0;
     }
@@ -576,14 +581,15 @@ span {
     }
 
     .teks h2 {
-        line-height: 65px;
+        font-size: 250%;
+        line-height: normal;
         text-align: center;
-        font-size: 50px;
     }
 
     .teks p {
         max-width: 100%;
-        font-size: 20px;
+        font-size: 100%;
+        line-height: normal;
     }
 
     /* Article 2 */
@@ -603,14 +609,15 @@ span {
     }
 
     .teks2 h2 {
-        line-height: 65px;
         text-align: center;
-        font-size: 50px;
+        font-size: 250%;
+        line-height: normal;
     }
 
     .teks2 p {
         max-width: 100%;
-        font-size: 20px;
+        font-size: 100%;
+        line-height: normal;
     }
 
     /* Article 3 */
@@ -626,14 +633,15 @@ span {
     }
 
     .teks3 h2 {
-        line-height: 65px;
         text-align: center;
-        font-size: 50px;
+        font-size: 250%;
+        line-height: normal;
     }
 
     .teks3 p {
         max-width: 100%;
-        font-size: 20px;
+        font-size: 100%;
+        line-height: normal;
     }
 
     /* About */
@@ -663,15 +671,20 @@ span {
     }
     
     .about-text h1 {
-        font-size: 80px;
+        font-size: 350%;
         text-align: center;
         margin: 0;
     }
     
     .about-text h5 {
-        font-size: 25px;
+        font-size: 150%;
         text-align: center;
         margin: 0;
+    }
+
+    .about-text p {
+        font-size: 100%;
+        line-height: normal;
     }
 
     .btn-2 {
@@ -682,46 +695,9 @@ span {
     .btn-2:hover {
         box-shadow: inset 500px 0 0 0 #eea26b;
     }
-}
-
-@media screen and (max-width:320px) {
-
-    nav ul li a {
-        font-size: 100%;
-    }
-
-    .judul {
-        font-size: 100%;
-    }
-
-    .deskripsi {
-        font-size: 100%;
-    }
 
     .btn-1, .btn-2 {
         font-size: 100%;
         width: 100%;
-    }
-
-    .teks h2, .teks2 h2, .teks3 h2 {
-        font-size: 250%;
-        line-height: normal;
-    }
-    .teks p, .teks2 p, .teks3 p {
-        font-size: 100%;
-        line-height: normal;
-    }
-
-    .about-text h1 {
-        font-size: 300%;
-    }
-
-    .about-text h5 {
-        font-size: 100%;
-    }
-
-    .about-text p {
-        font-size: 100%;
-        line-height: normal;
     }
 }
