@@ -10,7 +10,11 @@ Web utama untuk mengelola dan menampilkan proyek-proyek kami.
 git clone https://github.com/sitcomsmanda/sitcomsmanda.github.io.git
 ```
 2. Inisialisasi *branch* baru.
-3. Commit dengan pesan sesuai format berikut:
+```sh
+git branch branchName
+git switch branchName
+```
+4. Commit dengan pesan sesuai format berikut:
 ```
 - 🟢(U+1F7E2) add
 - 🔵(U+1F535) change
