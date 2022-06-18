@@ -1,4 +1,5 @@
 # <a href="https://sitcomsmanda.github.io">sitcomsmanda.github.io</a>
+<a href="https://www.instagram.com/sitcomsmanda/">Instagram</a>
 
 ## Description
 Web utama untuk mengelola dan menampilkan proyek-proyek kami.
@@ -12,4 +13,4 @@ Rentetan proyek akan otomatis ditambahkan, jika data proyek di masukkan ke `data
 - [🟡] fix
 - [🔴] remove
 
-<a href="https://www.instagram.com/sitcomsmanda/">Instagram</a>
+
