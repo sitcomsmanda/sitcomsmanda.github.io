@@ -38,11 +38,8 @@ body.addEventListener("keyup", function (e) {
 });
 
 /**
- *!  Fetch Data Logics
+ *!  "data/proyek.json" into HTML Logics
  */
-
-// Get the projects (ul element)
-const projectsContainer = document.querySelector("#projects");
 
 // fetch data function
 const getData = async (url = "") => {
@@ -54,17 +51,42 @@ const getData = async (url = "") => {
 
 // display (li element)
 const displayProject = (data = {}) => {
-	return `
+	const li = `
         <li class="project">
-			<h3 class="title">
-				<a href="${data.src}">
+            <h3 class="title">
+                <a href="${data.src}">
                     ${data.title}
-				</a>
-			</h3>
-			<h4 class="sub-title">
+                </a>
+            </h3>
+            <h4 class="sub-title">
                 ${data.subTitle} | Oleh ${data.author}
             </h4>
-			<p class="desc">${data.date}</p>
+            <p class="desc">${new Date(data.date).getDate()}</p>
         </li>
     `;
+	// Parse it into the DOM element and access the body and children 1
+	return new DOMParser().parseFromString(li, "text/html").body.children[0];
 };
+
+// Main "data/proyek.json" to HTML function
+const main = async () => {
+	// Get the ul elements
+	const projectsContainer = document.querySelector("#projects");
+
+	// Get the projects data in "./data/proyek.json"
+	const projectsData = await getData("./data/proyek.json");
+
+	// Map and change it to html (li element)
+	const projects = projectsData.map((project) => displayProject(project));
+
+	// Put it in the projects container
+	projects.forEach((project) => {
+		projectsContainer.append(project);
+	});
+};
+
+try {
+	main();
+} catch (e) {
+	console.error(e);
+}
