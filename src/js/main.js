@@ -36,3 +36,35 @@ body.addEventListener("keyup", function (e) {
 		}
 	}
 });
+
+/**
+ *!  Fetch Data Logics
+ */
+
+// Get the projects (ul element)
+const projectsContainer = document.querySelector("#projects");
+
+// fetch data function
+const getData = async (url = "") => {
+	const data = await fetch(url)
+		.then((response) => response.json())
+		.then((data) => data);
+	return data;
+};
+
+// display (li element)
+const displayProject = (data = {}) => {
+	return `
+        <li class="project">
+			<h3 class="title">
+				<a href="${data.src}">
+                    ${data.title}
+				</a>
+			</h3>
+			<h4 class="sub-title">
+                ${data.subTitle} | Oleh ${data.author}
+            </h4>
+			<p class="desc">${data.date}</p>
+        </li>
+    `;
+};
