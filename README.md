@@ -17,6 +17,7 @@ git clone https://github.com/sitcomsmanda/sitcomsmanda.github.io.git
 - 🟡(U+1F7E1) fix
 - 🔴(U+1F534) remove
 ```
-**Catatan**: Rentetan proyek akan otomatis ditambahkan, jika data proyek di masukkan ke `./data/proyek.json` sesuai **formatnya**.
+**Catatan**:
+- Rentetan proyek akan otomatis ditambahkan, jika data proyek di masukkan ke `./data/proyek.json` sesuai **formatnya**.
 
 
