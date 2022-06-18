@@ -49,6 +49,27 @@ const getData = async (url = "") => {
 	return data;
 };
 
+// format to indonesian date function
+const formatDate = (dateType = "1995-12-17T03:24:00") => {
+	const date = new Date(dateType);
+	// list of months in indonesian
+	const bulan = [
+		"Januari",
+		"Februari",
+		"Maret",
+		"April",
+		"Mei",
+		"Juni",
+		"Juli",
+		"Agustus",
+		"September",
+		"Oktober",
+		"November",
+		"Desember",
+	];
+	return `${date.getDate()} ${bulan[date.getMonth()]} ${date.getFullYear()}`;
+};
+
 // display (li element)
 const displayProject = (data = {}) => {
 	const li = `
@@ -61,7 +82,7 @@ const displayProject = (data = {}) => {
             <h4 class="sub-title">
                 ${data.subTitle} | Oleh ${data.author}
             </h4>
-            <p class="desc">${new Date(data.date).getDate()}</p>
+            <p class="desc">${formatDate(data.date)}</p>
         </li>
     `;
 	// Parse it into the DOM element and access the body and children 1
