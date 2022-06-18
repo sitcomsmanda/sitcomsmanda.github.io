@@ -6,7 +6,7 @@ Web utama untuk mengelola dan menampilkan proyek-proyek kami.
 
 ### Panduan Kontribusi
 1. Klon repositori ini ke mesin kamu.
-```ps
+```sh
 git clone https://github.com/sitcomsmanda/sitcomsmanda.github.io.git
 ```
 2. Inisialisasi *branch* baru.
