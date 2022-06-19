@@ -6,11 +6,18 @@ const main = async () => {
 
 	let constructedRow = ``;
 
-	saintek.forEach((jurusan) => {
+	await saintek.forEach((jurusan) => {
 		constructedRow += constructRow(jurusan);
 	});
 
-	console.dir(constructedRow);
+	const rowsCollection = new DOMParser().parseFromString(
+		constructedRow,
+		"text/html"
+	).body.children;
+
+	for (let i = 0; i < rowsCollection.length; i++) {
+		main.append(rowsCollection.item(i));
+	}
 };
 
 const constructRow = (data) => {
