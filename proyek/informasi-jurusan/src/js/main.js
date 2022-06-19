@@ -18,8 +18,8 @@ const main = async () => {
 	);
 	appendElement(navSaintek, navbarNav);
 
-	const navSoshum = constructNavItem("Soshum", "fa-solid fa-users", soshum);
-	appendElement(navSoshum, navbarNav);
+	// const navSoshum = constructNavItem("Soshum", "fa-solid fa-users", soshum);
+	// appendElement(navSoshum, navbarNav);
 };
 
 try {
