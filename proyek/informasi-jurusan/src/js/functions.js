@@ -66,13 +66,13 @@ const constructAccordionItem = (data) => {
 						</p>
 						<div class="container">
 							<div class="row justify-content-center">
-								<div class="col-lg-6 pt-3 ps-4 border rounded">
+								<div class="col-lg-6 pt-3 ps-4 shadow-sm border rounded-1">
 									<h5>Mempelajari</h5>
 									<ul>
 										${constructListItem(jurusan.mempelajari)}
 									</ul>
 								</div>
-								<div class="col-lg-6 pt-3 ps-4 border rounded">
+								<div class="col-lg-6 pt-3 ps-4 shadow-sm border border-white rounded-1 text-bg-primary">
 									<h5>Prospek Kerja</h5>
 									<ul>
 										${constructListItem(jurusan.pekerjaan)}
