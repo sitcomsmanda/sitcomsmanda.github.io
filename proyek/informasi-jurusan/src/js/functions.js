@@ -100,7 +100,45 @@ const constructListItem = (data) => {
 	return lists;
 };
 
-// fetch data function
+// ! CONSTRUCT NAV LINK FUNCTIONS
+
+const constructNavItem = (data) => {
+	return `
+		<li class="nav-item dropdown m-2">
+			<button
+				class="btn btn-ligth dropdown-toggle"
+				type="button"
+				id="dropdown-${data.nama}"
+				data-bs-toggle="dropdown"
+				aria-expanded="false"
+			>
+				<i class="${data.faIcon} mx-1"></i>
+				${data.nama}
+			</button>
+			<ul
+				class="dropdown-menu"
+				aria-labelledby="dropdown-${data.nama}"
+			>
+				<li>
+					<a
+						class="dropdown-item d-flex"
+						href="#fakultasTeknik"
+					>
+						<div
+							style="width: 30px"
+							class="text-center me-1"
+						>
+							<i class="fa-solid fa-gears"></i>
+						</div>
+						Fakultas Teknik
+					</a>
+				</li>
+			</ul>
+		</li>
+	`;
+};
+
+// ! fetch data function
 const getData = async (url = "") => {
 	const data = await fetch(url)
 		.then((response) => response.json())
