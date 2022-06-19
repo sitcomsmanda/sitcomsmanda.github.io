@@ -59,7 +59,7 @@ const constructAccordionItem = (data) => {
 	let items = ``;
 	data.jurusan.forEach((jurusan) => {
 		items += `
-			<div class="accordion-item col-lg-4">
+			<div class="accordion-item col-lg-12">
 				<h2
 					class="accordion-header"
 					id="flush-${jurusan.kode}-header"
