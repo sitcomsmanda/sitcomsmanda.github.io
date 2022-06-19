@@ -10,14 +10,11 @@ const main = async () => {
 		constructedRow += constructRow(jurusan);
 	});
 
-	const rowsCollection = new DOMParser().parseFromString(
-		constructedRow,
-		"text/html"
-	).body.children;
+	appendElement(constructedRow, main);
 
-	for (let i = 0; i < rowsCollection.length; i++) {
-		main.append(rowsCollection.item(i));
-	}
+	const nav = constructNavItem("Saintek", "fa-solid fa-flask", saintek);
+
+	console.log(nav);
 };
 
 try {

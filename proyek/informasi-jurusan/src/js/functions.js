@@ -148,6 +148,15 @@ const constructDropDownItem = (data) => {
 	return items;
 };
 
+const appendElement = (child, toParent) => {
+	const rowsCollection = new DOMParser().parseFromString(child, "text/html")
+		.body.children;
+
+	for (let i = 0; i < rowsCollection.length; i++) {
+		toParent.append(rowsCollection.item(i));
+	}
+};
+
 // ! fetch data function
 const getData = async (url = "") => {
 	const data = await fetch(url)
