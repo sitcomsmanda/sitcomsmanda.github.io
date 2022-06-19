@@ -44,7 +44,7 @@
 	<body>
 		<!-- ! NAVABAR  -->
 
-		<nav class="navbar navbar-expand-lg bg-light">
+		<nav class="navbar navbar-expand-lg bg-light fixed-top">
 			<div class="container-fluid">
 				<a class="navbar-brand mx-3" href="#"> Informasi Jurusan </a>
 				<button
@@ -318,7 +318,7 @@
 
 		<!-- ! MAIN CONTENT  -->
 
-		<main class="container mt-5">
+		<main class="container" style="padding-top: 120px">
 			<div class="row" id="fakultasTeknik">
 				<!-- HEADER -->
 				<div class="col-12 mb-3">
@@ -331,13 +331,13 @@
 				</div>
 
 				<!-- COLUMN 1 -->
-				<div class="col-lg-4 mb-3">
+				<div class="col-12 mb-3">
 					<div
-						class="accordion accordion-flush"
-						id="accordionFlushCol1"
+						class="accordion accordion-flush row"
+						id="accordionFlushCol"
 					>
 						<!-- ACCORDION ITEM -->
-						<div class="accordion-item">
+						<div class="accordion-item col-lg-4">
 							<h2
 								class="accordion-header"
 								id="flush-teknik-informatika-header"
@@ -357,7 +357,7 @@
 								id="flush-teknik-informatika"
 								class="accordion-collapse collapse"
 								aria-labelledby="flush-teknik-informatika-header"
-								data-bs-parent="#accordionFlushCol1"
+								data-bs-parent="#accordionFlushCol"
 							>
 								<div class="accordion-body">
 									<p>
@@ -401,8 +401,9 @@
 								</div>
 							</div>
 						</div>
+
 						<!-- ACCORDION ITEM -->
-						<div class="accordion-item">
+						<div class="accordion-item col-lg-4">
 							<h2
 								class="accordion-header"
 								id="flush-teknik-arsitektur-header"
@@ -422,7 +423,7 @@
 								id="flush-teknik-arsitektur"
 								class="accordion-collapse collapse"
 								aria-labelledby="flush-teknik-arsitektur-header"
-								data-bs-parent="#accordionFlushCol1"
+								data-bs-parent="#accordionFlushCol"
 							>
 								<div class="accordion-body">
 									<p>
@@ -466,17 +467,9 @@
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
 
-				<!-- COLUMN 2 -->
-				<div class="col-lg-4 mb-3">
-					<div
-						class="accordion accordion-flush"
-						id="accordionFlushCol2"
-					>
 						<!-- ACCORDION ITEM -->
-						<div class="accordion-item">
+						<div class="accordion-item col-lg-4">
 							<h2
 								class="accordion-header"
 								id="flush-teknik-perkapalan-header"
@@ -496,7 +489,7 @@
 								id="flush-teknik-perkapalan"
 								class="accordion-collapse collapse"
 								aria-labelledby="flush-teknik-perkapalan-header"
-								data-bs-parent="#accordionFlushCol2"
+								data-bs-parent="#accordionFlushCol"
 							>
 								<div class="accordion-body">
 									<p>
@@ -540,8 +533,9 @@
 								</div>
 							</div>
 						</div>
+
 						<!-- ACCORDION ITEM -->
-						<div class="accordion-item">
+						<div class="accordion-item col-lg-4">
 							<h2
 								class="accordion-header"
 								id="flush-teknik-elektro-header"
@@ -561,7 +555,7 @@
 								id="flush-teknik-elektro"
 								class="accordion-collapse collapse"
 								aria-labelledby="flush-teknik-elektro-header"
-								data-bs-parent="#accordionFlushCol2"
+								data-bs-parent="#accordionFlushCol"
 							>
 								<div class="accordion-body">
 									<p>
@@ -605,17 +599,9 @@
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
 
-				<!-- COLUMN 3 -->
-				<div class="col-lg-4 mb-3">
-					<div
-						class="accordion accordion-flush"
-						id="accordionFlushCol3"
-					>
 						<!-- ACCORDION ITEM -->
-						<div class="accordion-item">
+						<div class="accordion-item col-lg-4">
 							<h2
 								class="accordion-header"
 								id="flush-teknik-mesin-header"
@@ -635,7 +621,7 @@
 								id="flush-teknik-mesin"
 								class="accordion-collapse collapse"
 								aria-labelledby="flush-teknik-mesin-header"
-								data-bs-parent="#accordionFlushCol3"
+								data-bs-parent="#accordionFlushCol"
 							>
 								<div class="accordion-body">
 									<p>
@@ -679,8 +665,9 @@
 								</div>
 							</div>
 						</div>
+
 						<!-- ACCORDION ITEM -->
-						<div class="accordion-item">
+						<div class="accordion-item col-lg-4">
 							<h2
 								class="accordion-header"
 								id="flush-teknik-lingkungan-header"
@@ -700,7 +687,7 @@
 								id="flush-teknik-lingkungan"
 								class="accordion-collapse collapse"
 								aria-labelledby="flush-teknik-lingkungan-header"
-								data-bs-parent="#accordionFlushCol3"
+								data-bs-parent="#accordionFlushCol"
 							>
 								<div class="accordion-body">
 									<p>
@@ -750,6 +737,8 @@
 		</main>
 
 		<!-- ! END OF MAIN CONTENT  -->
+
+		<br /><br /><br /><br /><br />
 
 		<!-- BOOTSTRAP JS -->
 		<script
