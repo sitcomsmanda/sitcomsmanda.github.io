@@ -102,40 +102,50 @@ const constructListItem = (data) => {
 
 // ! CONSTRUCT NAV LINK FUNCTIONS
 
-const constructNavItem = (data) => {
+const constructNavItem = (tipe = "", icon = "", data = {}) => {
 	return `
 		<li class="nav-item dropdown m-2">
 			<button
 				class="btn btn-ligth dropdown-toggle"
 				type="button"
-				id="dropdown-${data.nama}"
+				id="dropdown${tipe}"
 				data-bs-toggle="dropdown"
 				aria-expanded="false"
 			>
-				<i class="${data.faIcon} mx-1"></i>
-				${data.nama}
+				<i class="${icon} mx-1"></i>
+				${tipe}
 			</button>
 			<ul
 				class="dropdown-menu"
-				aria-labelledby="dropdown-${data.nama}"
+				aria-labelledby="dropdown${tipe}"
 			>
-				<li>
-					<a
-						class="dropdown-item d-flex"
-						href="#fakultasTeknik"
-					>
-						<div
-							style="width: 30px"
-							class="text-center me-1"
-						>
-							<i class="fa-solid fa-gears"></i>
-						</div>
-						Fakultas Teknik
-					</a>
-				</li>
+				${constructDropDownItem(data)}
 			</ul>
 		</li>
 	`;
+};
+
+const constructDropDownItem = (data) => {
+	let items = ``;
+	data.forEach((item) => {
+		items += `
+			<li>
+				<a
+					class="dropdown-item d-flex"
+					href="#${item.kode}"
+				>
+					<div
+						style="width: 30px"
+						class="text-center me-1"
+					>
+						<i class="${item.faIcon}"></i>
+					</div>
+					${item.nama}
+				</a>
+			</li>
+		`;
+	});
+	return items;
 };
 
 // ! fetch data function
