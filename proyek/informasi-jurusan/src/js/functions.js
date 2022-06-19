@@ -10,8 +10,8 @@ const constructRow = (data) => {
 
 const constructRowHeading = (data) => {
 	return `
-		<div class="col-12 mb-3">
-			<h2 class="d-flex">
+		<div class="col-12 mt-5 mb-3">
+			<h2 class="d-flex mt-5">
 				<div style="width: 30px" class="text-center me-4">
 					<i class="${data.faIcon}"></i>
 				</div>
