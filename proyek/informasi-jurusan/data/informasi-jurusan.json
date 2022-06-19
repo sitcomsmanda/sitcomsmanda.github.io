@@ -1,0 +1,418 @@
+{
+	"saintek": [
+		{
+			"id": 0,
+			"nama": "Fakultas Teknik",
+			"kode": "fakultas-teknik",
+			"faIcon": "fa-solid fa-gears",
+			"jurusan": [
+				{
+					"id": 0,
+					"nama": "Teknik Informatika",
+					"kode": "teknik-informatika",
+					"deskripsi": "Mempelajari penerapan logika matematika dalam pengelolaan informasi dengan memanfaatkan teknologi komputer. Di jurusan ini kamu akan mencari tahu bagaimana proses sebuah software bekerja sampai proses pembuatannya.",
+					"mempelajari": [
+						"Pengantar Teknologi Informasi",
+						"Pemrograman Berorientasi Objek",
+						"Organisasi dan Arsitektur Data",
+						"Logika Matematika",
+						"Komunikasi Antarpersonal"
+					],
+					"pekerjaan": [
+						"Software Engineer",
+						"Programmer",
+						"System Analyst",
+						"Web Developer",
+						"Network Administrator",
+						"Manajer Sistem Informasi",
+						"Dosen"
+					]
+				},
+				{
+					"id": 1,
+					"nama": "Teknik Arsitektur",
+					"kode": "teknik-arsitektur",
+					"deskripsi": "Mempelajari tentang ilmu dan seni dalam merancang atau mendesain bangunan.",
+					"mempelajari": [
+						"Perancangan Pemukiman",
+						"Bangunan",
+						"Gambar Teknik",
+						"Matematika Arsitektur"
+					],
+					"pekerjaan": [
+						"Konsultan Perencana Bangunan",
+						"Perancangan Interior",
+						"Perancangan Eksterior",
+						"Perusahaan Jasa Kontraktor",
+						"Jasa Pengembang",
+						"Perencanaan Kota"
+					]
+				},
+				{
+					"id": 2,
+					"nama": "Teknik Perkapalan",
+					"kode": "teknik-perkapalan",
+					"deskripsi": "Mempelajari berbagai aspek kapal. Dari perancangan, proses produksi, perbaikan, instalasi mesin, sampai peraturan kemaritiman.",
+					"mempelajari": [
+						"Pengantar Teknik Perkapalan",
+						"Teori Bangunan Kapal",
+						"Simulasi dan Permodelan"
+					],
+					"pekerjaan": [
+						"Perencanaan Kapal",
+						"Pembangunan Kapal,",
+						"Perbaikan Kapal"
+					]
+				},
+				{
+					"id": 3,
+					"nama": "Teknik Elektro",
+					"kode": "teknik-elektro",
+					"deskripsi": "Mempelajari tentang teknik atau rekayasa sifat-sifat elektron dan penerapannya dalam kehidupan sehari-hari.",
+					"mempelajari": [
+						"Pengantar Teknologi Informasi",
+						"Organisasi dan Arsitektur Data",
+						"Pemrograman Berorientasi Objek",
+						"Logika Matematika"
+					],
+					"pekerjaan": [
+						"Jaringan Komunikasi Satelit dan Sistem Telepon Seluler",
+						"Perusahaan Industri Elektronika",
+						"Perusahaan Jasa Layanan Sistem Multimedia",
+						"Dosen"
+					]
+				},
+				{
+					"id": 4,
+					"nama": "Teknik Mesin",
+					"kode": "teknik-mesin",
+					"deskripsi": "Mempelajari tentang perancangan mekanik dan konstruksi, proses manufaktur dan sistem produksi, serta konversi energi.",
+					"mempelajari": [
+						"Teknik Mesin Analitik",
+						"Pesawat Tenaga",
+						"Mekanika Kekuatan Bahan",
+						"Logika Matematika"
+					],
+					"pekerjaan": [
+						"Operation dan Maintenance Mesin",
+						"Pabrik Peralatan Sehari-Hari (obat, sandang, pangan)",
+						"Bidang Otomotif",
+						"Jasa Konstruksi",
+						"Jasa Konsultasi Mesin",
+						"Dosen"
+					]
+				},
+				{
+					"id": 5,
+					"nama": "Teknik Lingkungan",
+					"kode": "teknik-lingkungan",
+					"deskripsi": "Mempelajari lingkungan dan permasalahannya, serta mencari solusi untuk masalah yang ada dan menerapkannya di kehidupan.",
+					"mempelajari": [
+						"Kimia Lingkungan",
+						"Ilmu Lingkungan",
+						"Teknik Sumber Daya Air",
+						"Sistem Pengolahan Limbah",
+						"Teknik Kelautan",
+						"Sanitasi",
+						"Tata Kota"
+					],
+					"pekerjaan": [
+						"Konservasi Lingkungan",
+						"Konsultan Lingkungan",
+						"Peneliti di Lembaga Riset",
+						"Analisis Risiko Pencemaran Lingkungan",
+						"Akademisi"
+					]
+				},
+				{
+					"id": 6,
+					"nama": "Teknik Geodesi dan Geomatika",
+					"kode": "teknik-geodesi-geomatika",
+					"deskripsi": "Mempelajari ilmu kebumian yang berkaitan lingkungan fisik bumi, mulai dari masalah banjir sampai gerakan kerak bumi.",
+					"mempelajari": [
+						"Statistika Geodesi",
+						"Hidrografi",
+						"Fotogrametri",
+						"Kartografi"
+					],
+					"pekerjaan": [
+						"Badan Pertahanan Nasional",
+						"Badan Koordinasi Survei",
+						"Pemetaan Nasional (lembaga pemerintahan)",
+						"Lembaga Penerbagan dan Antariksa Nasional",
+						"Peneliti di lembaga Riset (BPPT, LIPI)"
+					]
+				},
+				{
+					"id": 7,
+					"nama": "Teknik Kelautan",
+					"kode": "teknik-kelautan",
+					"deskripsi": "Mempelajari teknik dan rekayasa bangunan dan struktur yang berkaitan dengan laut.",
+					"mempelajari": [
+						"Perencanaan Pemukiman dan Bangunan",
+						"Gambar Teknik",
+						"Matematika Arsitektur",
+						"Metode Perancangan"
+					],
+					"pekerjaan": [
+						"Industri Rancang-Bangun Bangunan Pantai",
+						"Infrastruktur Transportasi Laut",
+						"Konservasi Kawasan Pesisir dan Lingkungan Laut"
+					]
+				},
+				{
+					"id": 8,
+					"nama": "Teknik Geologi",
+					"kode": "teknik-geologi",
+					"deskripsi": "Mempelajari cara mengembangkan pengetahuan yang berkaitan dengan kebumian.",
+					"mempelajari": [
+						"Geologi Mineral",
+						"Hidrologi",
+						"Ilmu Ukur Tanah",
+						"Sedimentologi",
+						"Mikro Paleontologi",
+						"Mitigasi Bencana Geologi"
+					],
+					"pekerjaan": [
+						"Perusahaan Perminyakan, Gas, Tambang",
+						"Konsultan Teknik Geologi",
+						"Direktorat Energi dan Sumber Daya",
+						"Peneliti di Lembaga Riset",
+						"BAPPENAS",
+						"BAPPEDA",
+						"Dosen"
+					]
+				},
+				{
+					"id": 9,
+					"nama": "Teknik Pertambangan",
+					"kode": "teknik-pertambangan",
+					"deskripsi": "Mempelajari keteknikan yang berkaitan dengan pencarian lokasi, pengolahan, dan pemanfaatan bahan galian tambang.",
+					"mempelajari": [
+						"Segala hal Tentang Penambangan",
+						"Geologi Fisik",
+						"Ekonomi Mineral",
+						"Mekanika Batuan"
+					],
+					"pekerjaan": [
+						"Industri Pertambangan",
+						"Perusahaan Semen",
+						"Perusahaan Pembangkit Listrik",
+						"Peneliti di Lembaga Riset",
+						"Dosen"
+					]
+				},
+				{
+					"id": 10,
+					"nama": "Teknik Perminyakan",
+					"kode": "teknik-perminyakan",
+					"deskripsi": "Mempelajari tambang minyak, gas, dan panas bumi. Mulai dari pengeboran, eksplorasi, distribusi, sampai ekonomi.",
+					"mempelajari": [
+						"Minyak, Gas Bumi, dan Panas Bumi",
+						"Reservoir",
+						"Pengeboran",
+						"Termodinamika Dasar"
+					],
+					"pekerjaan": [
+						"Perusahaan Minyak",
+						"Peneliti di Lembaga Riset",
+						"Departemen ESDM",
+						"Dosen"
+					]
+				},
+				{
+					"id": 11,
+					"nama": "Teknik Geofisika",
+					"kode": "teknik-geofisika",
+					"deskripsi": "Mempelajari rekayasa fisik bumi di bagian dalam dengan metode dan teknik fisika (misal: gelombang gempa, magnet bumi, gravitasi).",
+					"mempelajari": [
+						"Aspek Fisik dan Dinamika Bumi",
+						"Gejala Alam",
+						"Gravitasi dan Magnetik",
+						"Global Positioning System (GPS)"
+					],
+					"pekerjaan": [
+						"Pusat Penelitian dan Pengembangan Teknologi Minyak dan Gas Bumi",
+						"Direktorat Vulkanologi dan Mitigasi Bencana Geologi",
+						"Direktorat Inventarisasi Sumber Daya Mineral",
+						"Pusat Penelitian dan Pengembangan Geologi",
+						"BMKG",
+						"BPPT"
+					]
+				},
+				{
+					"id": 12,
+					"nama": "Teknik Fisika",
+					"kode": "teknik-fisika",
+					"deskripsi": "Mempelajari gabungan antara ilmu fisika dan keteknikan.",
+					"mempelajari": [
+						"Matematika Rekayasa",
+						"Termodinamika",
+						"Mekanika Kuantum",
+						"Desain Sistem Termal"
+					],
+					"pekerjaan": [
+						"Industri Proses",
+						"Perusahaan Kerekayaan",
+						"Lembaga Penelitian",
+						"Konsultan",
+						"Dosen"
+					]
+				},
+				{
+					"id": 13,
+					"nama": "Teknik Kimia",
+					"kode": "teknik-kimia",
+					"deskripsi": "Mempelajari bagaimana proses barang mentah menjadi barang yang lebih bernilai (baik barang setengah jadi maupun barang jadi",
+					"mempelajari": [
+						"Kimia Analitik",
+						"Teknik Kimia",
+						"Analisis Matematik",
+						"Teknik Kimia",
+						"Proses Industri Kimia"
+					],
+					"pekerjaan": [
+						"Industri Obat-Obatan, Kosmetik, atau Pangan",
+						"Jasa Rekayasa (perancangan proses kimia, pengadaan peralatan pabrik)",
+						"Staf Peneliti",
+						"Dosen"
+					]
+				},
+				{
+					"id": 14,
+					"nama": "Teknik Industri",
+					"kode": "teknik-industri",
+					"deskripsi": "Mempelajari perancangan, penginstalan, dan perbaikan sistem yang terdiri dari manusia, material, peralatan, energi, dan informasi agar memiliki sistem kerja yang efektif dan efisien",
+					"mempelajari": [
+						"Perancangan Tata Letak Pabrik",
+						"Pengembangan Aplikasi Sistem Informasi untuk Perusahaan",
+						"Statistika Industri"
+					],
+					"pekerjaan": [
+						"Bidang Perencanaan dan Pengendalian Produksi dan Kualitas",
+						"Market Researcher",
+						"Technical Sales",
+						"Logistik"
+					]
+				},
+				{
+					"id": 15,
+					"nama": "Teknik Sipil",
+					"kode": "teknik-sipil",
+					"deskripsi": "Mempelajari perancangan, konstruksi, pemeliharaan bangunan fisik dan lingkungan (jalan, jembatan, kanal, bendungan dan bangunan).",
+					"mempelajari": [
+						"Struktur Baja dan Beton",
+						"Manajemen Konstruksi",
+						"Irigasi dan Drainase",
+						"Rekayasa Pondasi",
+						"Ekonomi Teknik",
+						"Mineral",
+						"Pengecoran"
+					],
+					"pekerjaan": [
+						"Konsultan Konstruksi Bangunan",
+						"Kontraktor",
+						"Insinyur Air",
+						"Insinyur Struktural",
+						"Instansi Pemerintah",
+						"Dosen"
+					]
+				},
+				{
+					"id": 16,
+					"nama": "Perencanaan Wilayah dan Kota (Planologi)",
+					"kode": "teknik-planalogi",
+					"deskripsi": "Mempelajari kondisi ruang dan merencanakannya untuk kebutuhan masa depan. Berkaitan dengan keteknikan dan bidang sosial ekonomi.",
+					"mempelajari": [
+						"Kimia Lingkungan",
+						"Ilmu Lingkungan",
+						"Teknik Sumber Daya Air",
+						"Sistem Pengolahan Limbah Padat Terpadu",
+						"Teknik Kelautan"
+					],
+					"pekerjaan": [
+						"Bappenas",
+						"Kementerian Perumahan Rakyat",
+						"Dinas Tata Kota",
+						"Developer dan Kontraktor Properti",
+						"Aktivis di LSM (KATIGA, BIGS, Sawarung),",
+						"Konsultan"
+					]
+				}
+			]
+		}
+	],
+	"soshum": [
+		{
+			"id": 0,
+			"nama": "Fakultas Ekonomi dan Bisnis",
+			"kode": "fakultas-ekonomi-bisnis",
+			"faIcon": "fa-solid fa-chart-simple",
+			"jurusan": [
+				{
+					"id": 0,
+					"nama": "Akuntansi",
+					"kode": "akuntansi",
+					"deskripsi": "Mempelajari proses penyusunan dan pelaporan  informasi pembukuan keuangan.",
+					"mempelajari": [
+						"Pengantar Manajemen",
+						"Pengantar Akuntansi",
+						"Akuntansi Biaya",
+						"Akuntansi Sektor Publik",
+						"Sistem Informasi Akuntansi",
+						"Pengauditan"
+					],
+					"pekerjaan": [
+						"Akuntan",
+						"Bappenas",
+						"Departemen Keuangan",
+						"Departemen Perindustrian",
+						"Pegawai Pajak",
+						"Bursa Efek",
+						"Perbankan"
+					]
+				},
+				{
+					"id": 1,
+					"nama": "Ilmu Ekonomi",
+					"kode": "ilmu-ekonomi",
+					"deskripsi": "Mempelajari cara menganalisis dan merencanakan ekonomi baik makroekonomi maupun mikroekonomi.",
+					"mempelajari": [
+						"Ekonomi Internasional",
+						"Ekonomi Publik",
+						"Ekonomi Moneter",
+						"Ekonomi Industri",
+						"Ekonomi Pembangunan",
+						"Ekonomi Sumber Daya manusia"
+					],
+					"pekerjaan": [
+						"Akuntan Publik",
+						"Peneliti Ekonomi",
+						"Konsultan",
+						"Lembaga Keuangan"
+					]
+				},
+				{
+					"id": 2,
+					"nama": "Ilmu Ekonomi Islam",
+					"kode": "ilmu-ekonomi-islam",
+					"deskripsi": "Mempelajari teori ekonomi mikro dan makro dalam keuangan, bisnis dalam islam, serta pengelolaan lembaga keuangan syariah.",
+					"mempelajari": [
+						"Ekonomi Zakat",
+						"Ekonomi Moneter Islam",
+						"Ekonomi Mikro Syariah",
+						"Ekonomi Keuangan Islam",
+						"Manajemen Produk Halal",
+						"Pasar Modal Syariah."
+					],
+					"pekerjaan": [
+						"Akuntan Publik",
+						"Peneliti Ekonomi",
+						"Konsultan",
+						"Lembaga Keuangan"
+					]
+				}
+			]
+		}
+	]
+}
