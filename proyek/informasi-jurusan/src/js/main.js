@@ -1,10 +1,16 @@
 const main = async () => {
-	console.log("hello world!");
+	const main = document.querySelector("#main");
 
 	// Path relative from index.html
-	const data = await getData("./data/informasi-jurusan.json");
+	const { saintek, soshum } = await getData("./data/informasi-jurusan.json");
 
-	console.log(data);
+	let constructedRow = ``;
+
+	saintek.forEach((jurusan) => {
+		constructedRow += constructRow(jurusan);
+	});
+
+	console.dir(constructedRow);
 };
 
 const constructRow = (data) => {
@@ -74,13 +80,13 @@ const constructAccordionItem = (data) => {
 						</p>
 						<ul class="list-group">
 							<li class="list-group-item">
-								<h5>${jurusan["mempelajari"]}</h5>
+								<h5>Mempelajari</h5>
 								<ul>
 									${constructListItem(jurusan.mempelajari)}
 								</ul>
 							</li>
 							<li class="list-group-item">
-								<h5>${jurusan["pekerjaan"]}</h5>
+								<h5>Prospek Kerja</h5>
 								<ul>
 									${constructListItem(jurusan.pekerjaan)}
 								</ul>
