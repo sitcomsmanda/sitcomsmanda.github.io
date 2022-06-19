@@ -65,7 +65,7 @@ const constructAccordionItem = (data) => {
 					id="flush-${jurusan.kode}-header"
 				>
 					<button
-						class="accordion-button collapsed"
+						class="accordion-button collapsed fw-semibold"
 						type="button"
 						data-bs-toggle="collapse"
 						data-bs-target="#flush-${jurusan.kode}"
@@ -85,20 +85,22 @@ const constructAccordionItem = (data) => {
 						<p>
 							${jurusan.deskripsi}
 						</p>
-						<ul class="list-group">
-							<li class="list-group-item">
-								<h5>Mempelajari</h5>
-								<ul>
-									${constructListItem(jurusan.mempelajari)}
-								</ul>
-							</li>
-							<li class="list-group-item">
-								<h5>Prospek Kerja</h5>
-								<ul>
-									${constructListItem(jurusan.pekerjaan)}
-								</ul>
-							</li>
-						</ul>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-lg-6 pt-3 ps-4 border rounded">
+									<h5>Mempelajari</h5>
+									<ul>
+										${constructListItem(jurusan.mempelajari)}
+									</ul>
+								</div>
+								<div class="col-lg-6 pt-3 ps-4 border rounded">
+									<h5>Prospek Kerja</h5>
+									<ul>
+										${constructListItem(jurusan.pekerjaan)}
+									</ul>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
