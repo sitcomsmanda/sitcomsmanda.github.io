@@ -104,7 +104,7 @@ const constructListItem = (data) => {
 
 const constructNavItem = (tipe = "", icon = "", data = {}) => {
 	return `
-		<li class="nav-item dropdown">
+		<li class="nav-item dropdown mb-2">
 			<button
 				class="btn btn-ligth dropdown-toggle w-100 text-end"
 				type="button"
