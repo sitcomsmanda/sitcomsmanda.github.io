@@ -104,9 +104,9 @@ const constructListItem = (data) => {
 
 const constructNavItem = (tipe = "", icon = "", data = {}) => {
 	return `
-		<li class="nav-item dropdown m-2">
+		<li class="nav-item dropdown">
 			<button
-				class="btn btn-ligth dropdown-toggle"
+				class="btn btn-ligth dropdown-toggle w-100 text-end"
 				type="button"
 				id="dropdown${tipe}"
 				data-bs-toggle="dropdown"
@@ -131,16 +131,16 @@ const constructDropDownItem = (data) => {
 		items += `
 			<li>
 				<a
-					class="dropdown-item d-flex"
+					class="dropdown-item d-flex justify-content-end"
 					href="#${item.kode}"
 				>
+					${item.nama}
 					<div
 						style="width: 30px"
-						class="text-center me-1"
+						class="text-center ms-1"
 					>
 						<i class="${item.faIcon}"></i>
 					</div>
-					${item.nama}
 				</a>
 			</li>
 		`;
