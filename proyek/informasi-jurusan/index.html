@@ -46,30 +46,43 @@
 	</head>
 	<body>
 		<!-- ! NAVABAR  -->
-
-		<nav class="shadow-sm navbar navbar-expand-lg bg-light fixed-top">
+		<nav class="shadow-sm navbar bg-light fixed-top">
 			<div class="container-fluid">
-				<a class="navbar-brand mx-3" href="#"> Informasi Jurusan </a>
+				<a class="navbar-brand ms-2" href="#">Informasi Jurusan</a>
 				<button
 					class="navbar-toggler"
 					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
+					data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar"
+					aria-controls="offcanvasNavbar"
 				>
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div
-					class="collapse navbar-collapse"
-					id="navbarSupportedContent"
+					class="offcanvas offcanvas-end"
+					tabindex="-1"
+					id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel"
 				>
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-
-					<a class="nav-link my-2 mx-3" href="../../"
-						>Back to SITCOM</a
-					>
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+							Informasi Jurusan
+						</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="offcanvas"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul
+							class="navbar-nav justify-content-end flex-grow-1 pe-3"
+						></ul>
+						<a href="../../" class="nav-link mt-5 mb-2">
+							Back to SITCOM
+						</a>
+					</div>
 				</div>
 			</div>
 		</nav>
