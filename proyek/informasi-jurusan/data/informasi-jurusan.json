@@ -340,6 +340,165 @@
 					]
 				}
 			]
+		},
+		{
+			"id": 1,
+			"nama": "Fakultas Kedokteran",
+			"kode": "fakultas-kedokteran",
+			"faIcon": "fa-solid fa-user-doctor",
+			"jurusan": [
+				{
+					"id": 0,
+					"nama": "Kedokteran (Dokter Umum)",
+					"kode": "kedokteran",
+					"deskripsi": "Mempelajari cara mendiagnosis/menganalisis gejala yang dialami oleh penderita, lalu membuat kesimpulan tentang penyakit yang dideritanya.",
+					"mempelajari": [
+						"Ilmu Kedokteran Dasar Umum",
+						"Dasar Klinik",
+						"Kedokteran Medik",
+						"Kedokteran Bedah",
+						"Kesehatan Masyarakat"
+					],
+					"pekerjaan": [
+						"Dokter Umum di Rumah Sakit",
+						"Laboratorium Klinik",
+						"Konsultan Ilmu Kedokteran",
+						"Peneliti",
+						"Dosen"
+					]
+				},
+				{
+					"id": 1,
+					"nama": "Kedokteran Gigi",
+					"kode": "kodokteran-gigi",
+					"deskripsi": "Mempelajari tentang kesehatan di daerah gigi dan mulut. Menjadi dokter gigi harus menyelesaikan pendidikan akademis di program studi kedokteran gigi.",
+					"mempelajari": [
+						"Biokimia",
+						"Anatomi",
+						"Histologi",
+						"Parasitologi"
+					],
+					"pekerjaan": [
+						"Spesialis Kedokteran Gigi",
+						"Spesialis Penyakit Mulut",
+						"Spesialis Periodonsia (jaringan gusi dan penyangga gigi)",
+						"Spesialis Bedah Mulut dan Maksilofasial",
+						"Spesialis Ortodonsia"
+					]
+				},
+				{
+					"id": 2,
+					"nama": "Kedokteran Hewan",
+					"kode": "kodokteran-hewan",
+					"deskripsi": "Mempelajari segala sesuatu yang berhubungan dengan kesehatan hewan.",
+					"mempelajari": [
+						"Ilmu Kedokteran Dasar Hewan",
+						"Teknik Diagnosis Hewan",
+						"Perubahan Fisiologis dan Patologis"
+					],
+					"pekerjaan": [
+						"Dokter Hewan di Klinik",
+						"Dokter Hewan di Peternakan",
+						"Tenaga Medis di Pusat Konservasi",
+						"Departemen Pertanian",
+						"Departemen Kesehatan",
+						"Departemen Kehutanan",
+						"Breeding Farm"
+					]
+				},
+				{
+					"id": 3,
+					"nama": "Ilmu Gizi",
+					"kode": "ilmu-gizi",
+					"deskripsi": "Mempelajari tentang gizi dan kaitannya dengan kesehatan, pertumbuhan dan produktivitas manusia.",
+					"mempelajari": [
+						"Gizi Klinis",
+						"Gizi Masyarakat",
+						"Anatomi",
+						"Pengembangan Produk Pangan"
+					],
+					"pekerjaan": [
+						"Perencana Program Pangan",
+						"Puskesmas",
+						"Dinas Kesehatan",
+						"Konsultan Gizi",
+						"Staf Peneliti",
+						"Dosen",
+						"NGO"
+					]
+				},
+				{
+					"id": 4,
+					"nama": "Kebidanan",
+					"kode": "kebidanan",
+					"deskripsi": "Mempelajari  bagaimana membantu proses kehamilan, menyusui, merawat tubuh kembang bayi, sampai program Keluarga Berencana (KB).",
+					"mempelajari": [
+						"Konsep Kebidanan",
+						"Kesehatan Reproduksi dan KB",
+						"Epidemiologi",
+						"Asuhan Kebidanan Kehamilan"
+					],
+					"pekerjaan": [
+						"Instansi Kesehatan Pemerintah",
+						"Klinik",
+						"Bidang Persalinan (bersama dokter persalinan)",
+						"Dosen"
+					]
+				},
+				{
+					"id": 5,
+					"nama": "Analisis Kesehatan",
+					"kode": "analisis-kesehatan",
+					"deskripsi": "Mempelajari pelayanan pemeriksaan, pengukuran, penetapan, dan pengujian terhadap bahan yang berasal dari manusia atau bukan manusia, untuk penentuan jenis penyakit.",
+					"mempelajari": [
+						"Pengantar Laboratorium",
+						"Patofisiologi",
+						"Toksikologi Klinik",
+						"Instrumentasi"
+					],
+					"pekerjaan": [
+						"Quality Control Perusahaan Makanan dan Minuman",
+						"Promoting Health Laboratory",
+						"Laboratorium Kesehatan",
+						"Balai Pengawas Obat dan Makanan",
+						"Peneliti"
+					]
+				},
+				{
+					"id": 6,
+					"nama": "Fisioterapi",
+					"kode": "fisioterapi",
+					"deskripsi": "Mempelajari fungsi gerak tubuh manusia. Mulai dari cara gerak, bentuk otot, sendi, sampai tulang.",
+					"mempelajari": [
+						"Anatomi",
+						"Statistik Epidemiologi Kedokteran",
+						"Dasar Pemeriksaan Lab dan Radiologi",
+						"Prinsip Sains dan Biomedik dalam Fisioterapi"
+					],
+					"pekerjaan": [
+						"Fisioterapis di Rumah Sakit atau Klinik",
+						"Ahli Fisioterapi di Tempat Olahraga"
+					]
+				},
+				{
+					"id": 7,
+					"nama": "Kesehatan Masyarakat",
+					"kode": "kesehatan-masyarakat",
+					"deskripsi": "Mempelajari peningkatan taraf hidup dan kesehatan masyarakat dengan melakukan pengorganisasian di masyarakat.",
+					"mempelajari": [
+						"Kesehatan Keluarga",
+						"Dasar-Dasar Biostatistik",
+						"Manajemen Rumah Sakit Kesehatan dan Keselamatan Kerja"
+					],
+					"pekerjaan": [
+						"Kesehatan dan Keselamatan Kerja dan Kesehatan Lingkungan (K3KL).",
+						"Administrasi Kebijakan Kesehatan",
+						"Rumah Sakit",
+						"Departemen Kesehatan",
+						"Perusahaan Kesehatan"
+					]
+				}
+			]
 		}
 	],
 	"soshum": [
