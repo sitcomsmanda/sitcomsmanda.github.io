@@ -131,7 +131,7 @@ const constructDropDownItem = (data) => {
 		items += `
 			<li>
 				<a
-					class="dropdown-item d-flex justify-content-end"
+					class="dropdown-item d-flex justify-content-end dropdown-item-link"
 					href="#${item.kode}"
 				>
 					${item.nama}

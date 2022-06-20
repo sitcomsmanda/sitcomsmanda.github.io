@@ -1,4 +1,13 @@
 const main = async () => {
+	const body = document.querySelector("body");
+	const offcanvasNavbar = new bootstrap.Offcanvas("#offcanvasNavbar");
+
+	body.addEventListener("click", function (e) {
+		if (e.target.classList.contains("dropdown-item-link")) {
+			offcanvasNavbar.hide();
+		}
+	});
+
 	const main = document.querySelector("#main");
 	const navbarNav = document.querySelector(".navbar-nav");
 
@@ -18,8 +27,8 @@ const main = async () => {
 	);
 	appendElement(navSaintek, navbarNav);
 
-	// const navSoshum = constructNavItem("Soshum", "fa-solid fa-users", soshum);
-	// appendElement(navSoshum, navbarNav);
+	const navSoshum = constructNavItem("Soshum", "fa-solid fa-users", soshum);
+	appendElement(navSoshum, navbarNav);
 };
 
 try {
