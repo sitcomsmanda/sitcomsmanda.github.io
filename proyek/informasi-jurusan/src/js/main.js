@@ -15,19 +15,24 @@ const main = async () => {
 	const { saintek, soshum } = await getData("./data/informasi-jurusan.json");
 
 	let constructedRow = ``;
-	await saintek.forEach((jurusan) => {
-		constructedRow += constructRow(jurusan);
+
+	await saintek.forEach((fakultas) => {
+		constructedRow += constructRow(fakultas);
 	});
-	appendElement(constructedRow, main);
+
+	await soshum.forEach((fakultas) => {
+		constructedRow += constructRow(fakultas);
+	});
 
 	const navSaintek = constructNavItem(
 		"Saintek",
 		"fa-solid fa-flask",
 		saintek
 	);
-	appendElement(navSaintek, navbarNav);
-
 	const navSoshum = constructNavItem("Soshum", "fa-solid fa-users", soshum);
+
+	appendElement(constructedRow, main);
+	appendElement(navSaintek, navbarNav);
 	appendElement(navSoshum, navbarNav);
 };
 

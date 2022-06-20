@@ -149,12 +149,12 @@ const constructDropDownItem = (data) => {
 };
 
 const appendElement = (child, toParent) => {
-	const rowsCollection = new DOMParser().parseFromString(child, "text/html")
-		.body.children;
+	const nodes = new DOMParser().parseFromString(child, "text/html").body
+		.childNodes;
 
-	for (let i = 0; i < rowsCollection.length; i++) {
-		toParent.append(rowsCollection.item(i));
-	}
+	nodes.forEach((node) => {
+		toParent.append(node);
+	});
 };
 
 // ! fetch data function
