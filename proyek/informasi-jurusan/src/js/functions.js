@@ -44,11 +44,11 @@ const constructAccordionItem = (data) => {
 					id="flush-${jurusan.kode}-header"
 				>
 					<button
-						class="accordion-button collapsed fw-semibold"
+						class="accordion-button fw-semibold ${jurusan.id != 0 ? `collapsed` : ``}"
 						type="button"
 						data-bs-toggle="collapse"
 						data-bs-target="#flush-${jurusan.kode}"
-						aria-expanded="false"
+						aria-expanded="${jurusan.id == 0 ? `true` : `false`}"
 						aria-controls="flush-${jurusan.kode}"
 					>
 						${jurusan.nama}
@@ -56,7 +56,7 @@ const constructAccordionItem = (data) => {
 				</h2>
 				<div
 					id="flush-${jurusan.kode}"
-					class="accordion-collapse collapse"
+					class="accordion-collapse collapse ${jurusan.id == 0 ? `show` : ``}"
 					aria-labelledby="flush-${jurusan.kode}-header"
 					data-bs-parent="#accordion-${data.kode}"
 				>
