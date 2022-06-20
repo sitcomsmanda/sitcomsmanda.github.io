@@ -60,7 +60,7 @@
 					],
 					"pekerjaan": [
 						"Perencanaan Kapal",
-						"Pembangunan Kapal,",
+						"Pembangunan Kapal",
 						"Perbaikan Kapal"
 					]
 				},
@@ -263,11 +263,11 @@
 					"id": 13,
 					"nama": "Teknik Kimia",
 					"kode": "teknik-kimia",
-					"deskripsi": "Mempelajari bagaimana proses barang mentah menjadi barang yang lebih bernilai (baik barang setengah jadi maupun barang jadi",
+					"deskripsi": "Mempelajari bagaimana proses barang mentah menjadi barang yang lebih bernilai (baik barang setengah jadi maupun barang jadi).",
 					"mempelajari": [
 						"Kimia Analitik",
 						"Teknik Kimia",
-						"Analisis Matematik",
+						"Analisis Matematika",
 						"Teknik Kimia",
 						"Proses Industri Kimia"
 					],
@@ -282,7 +282,7 @@
 					"id": 14,
 					"nama": "Teknik Industri",
 					"kode": "teknik-industri",
-					"deskripsi": "Mempelajari perancangan, penginstalan, dan perbaikan sistem yang terdiri dari manusia, material, peralatan, energi, dan informasi agar memiliki sistem kerja yang efektif dan efisien",
+					"deskripsi": "Mempelajari perancangan, penginstalan, dan perbaikan sistem yang terdiri dari manusia, material, peralatan, energi, dan informasi agar memiliki sistem kerja yang efektif dan efisien.",
 					"mempelajari": [
 						"Perancangan Tata Letak Pabrik",
 						"Pengembangan Aplikasi Sistem Informasi untuk Perusahaan",
