@@ -4,7 +4,9 @@ const main = async () => {
 
 	body.addEventListener("click", function (e) {
 		if (e.target.classList.contains("dropdown-item-link")) {
-			offcanvasNavbar.hide();
+			setTimeout(() => {
+				offcanvasNavbar.hide();
+			}, 500);
 		}
 	});
 
