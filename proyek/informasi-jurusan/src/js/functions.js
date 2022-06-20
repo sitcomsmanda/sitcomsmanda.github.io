@@ -11,7 +11,7 @@ const constructRow = (data) => {
 const constructRowHeading = (data) => {
 	return `
 		<div class="col-12 pt-4">
-			<h2 class="d-flex pt-5 ps-3">
+			<h2 class="d-flex pt-5 pb-3 ps-3">
 				<div style="width: 30px" class="text-center me-4">
 					<i class="${data.faIcon}"></i>
 				</div>
