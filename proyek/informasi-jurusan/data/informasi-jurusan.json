@@ -403,13 +403,57 @@
 						"Ekonomi Mikro Syariah",
 						"Ekonomi Keuangan Islam",
 						"Manajemen Produk Halal",
-						"Pasar Modal Syariah."
+						"Pasar Modal Syariah"
 					],
 					"pekerjaan": [
 						"Akuntan Publik",
 						"Peneliti Ekonomi",
 						"Konsultan",
 						"Lembaga Keuangan"
+					]
+				},
+				{
+					"id": 3,
+					"nama": "Manajemen",
+					"kode": "manajemen",
+					"deskripsi": "Mempelajari proses pengelolaan organisasi yang meliputi cara dan proses mengelola produksi.",
+					"mempelajari": [
+						"Penganggaran Perusahaan",
+						"Manajemen Operasi",
+						"Manajemen Risiko",
+						"Hukum Bisnis dan Perpajakan",
+						"Ekonomi Manajerial",
+						"Ekonomi Internasional"
+					],
+					"pekerjaan": [
+						"General Manager",
+						"Bappenas",
+						"Departemen Keuangan",
+						"Departemen Perpajakan",
+						"Perindustrian",
+						"Depdiknas",
+						"Perbankan",
+						"Bursa Efek",
+						"Konsultan",
+						"HRD"
+					]
+				},
+				{
+					"id": 4,
+					"nama": "Bisnis Islam",
+					"kode": "bisnis-islam",
+					"deskripsi": "Mempelajari bagaimana merencanakan, menganalisis, dan membuat keputusan dalam bisnis dan keuangan secara halal yang berlandaskan syariat agama islam.",
+					"mempelajari": [
+						"Akuntansi Islam",
+						"Investasi dan Pasar Modal",
+						"Manajemen Pemasaran Islam",
+						"Manajemen Perbankan Islam",
+						"Ekonometrika Keuangan"
+					],
+					"pekerjaan": [
+						"Lembaga Keuangan dan Perbankan Syariah",
+						"Perbankan Syariah",
+						"Bisnis Syariah"
 					]
 				}
 			]
