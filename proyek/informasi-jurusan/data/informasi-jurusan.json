@@ -499,6 +499,50 @@
 					]
 				}
 			]
+		},
+		{
+			"id": 2,
+			"nama": "Fakultas Farmasi",
+			"kode": "fakultas-farmasi",
+			"faIcon": "fa-solid fa-user-doctor",
+			"jurusan": [
+				{
+					"id": 0,
+					"nama": "Farmasi",
+					"kode": "farmasi",
+					"deskripsi": "Mempelajari obat-obatan, bagaimana mengenali struktur senyawa obat, lalu mengolahnya menjadi obat yang layak dikonsumsi.",
+					"mempelajari": [
+						"Anatomi Fisiologi",
+						"Mikrobiologi",
+						"Parasitologi",
+						"Farmasi Klinik"
+					],
+					"pekerjaan": [
+						"Farmasis",
+						"Apoteker",
+						"Industri Obat-Obatan, Makanan, Kosmetik, atau Jamu",
+						"Dosen"
+					]
+				},
+				{
+					"id": 1,
+					"nama": "Farmasi Klinik dan Komunitas",
+					"kode": "farmasi-klinik-komunitas",
+					"deskripsi": "Mempelajari tentang obat-obatan dan bagaimana memberikan pelayanan kesehatan terkait obat tersebut.",
+					"mempelajari": [
+						"Kimia Dasar",
+						"Farmasetika Dasar",
+						"Sains Terpadu",
+						"Kalkulus"
+					],
+					"pekerjaan": [
+						"Penanggung Jawab Apotek",
+						"Apoteker",
+						"Industri Obat-Obatan, Makanan, atau Kosmetik",
+						"Balai Pengawas Obat dan Makanan (BPOM)"
+					]
+				}
+			]
 		}
 	],
 	"soshum": [
