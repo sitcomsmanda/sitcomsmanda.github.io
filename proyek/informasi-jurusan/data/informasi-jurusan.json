@@ -504,7 +504,7 @@
 			"id": 2,
 			"nama": "Fakultas Farmasi",
 			"kode": "fakultas-farmasi",
-			"faIcon": "fa-solid fa-user-doctor",
+			"faIcon": "fa-solid fa-pills",
 			"jurusan": [
 				{
 					"id": 0,
@@ -540,6 +540,210 @@
 						"Apoteker",
 						"Industri Obat-Obatan, Makanan, atau Kosmetik",
 						"Balai Pengawas Obat dan Makanan (BPOM)"
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"nama": "Fakultas MIPA",
+			"kode": "fakultas-mipa",
+			"faIcon": "fa-solid fa-pen-clip",
+			"jurusan": [
+				{
+					"id": 0,
+					"nama": "Statistika",
+					"kode": "statistika",
+					"deskripsi": "Mempelajari turunan ilmu matematika yang bertujuan untuk mengumpulkan, mengolah, dan menafsirkan data menjadi sebuah informasi.",
+					"mempelajari": [
+						"Aljabar",
+						"Matematika Dasar",
+						"Dasar-Dasar Statistika",
+						"Algoritma dan Perangkat Lunak"
+					],
+					"pekerjaan": [
+						"Industri Keuangan (perbankan, asuransi, bursa saham)",
+						"Badan Pusat Statistik (BPS)",
+						"Industri Pengolahan Data",
+						"Market Researcher"
+					]
+				},
+				{
+					"id": 1,
+					"nama": "Fisika",
+					"kode": "fisika",
+					"deskripsi": "Mempelajari gejala alam yang tidak hidup atau materi dalam lingkup ruang dan waktu.",
+					"mempelajari": [
+						"Sistem Instrumentasi",
+						"Fisika Murni",
+						"Fisika Inti",
+						"Fisika Modern",
+						"Optik",
+						"Pengecoran",
+						"Mineral"
+					],
+					"pekerjaan": [
+						"Industri Teknologi Informasi",
+						"Quality Assurance",
+						"Quality Control",
+						"Industri Riset",
+						"Lembaga Keuangan",
+						"Staf Peneliti"
+					]
+				},
+				{
+					"id": 2,
+					"nama": "Biologi",
+					"kode": "biologi",
+					"deskripsi": "Mempelajari makhluk hidup: manusia, hewan, tumbuhan, mikroba.",
+					"mempelajari": [
+						"Mikrobiologi",
+						"Taksonomi",
+						"Fisiologi",
+						"Genetika",
+						"Ekologi"
+					],
+					"pekerjaan": [
+						"Industri Makanan dan Obat-Obatan",
+						"Lembaga Penelitian",
+						"Instansi Pemerintah",
+						"Staf Peneliti",
+						"Dosen"
+					]
+				},
+				{
+					"id": 3,
+					"nama": "Mikrobiologi",
+					"kode": "mikrobiologi",
+					"deskripsi": "Mempelajari mikroorganisme; bakteri, fungi, alga, mikroba, protozoa (semua makhluk hidup yang dilihat menggunakan mikroskop) dan pemanfaatannya di kehidupan sehari-hari.",
+					"mempelajari": [
+						"Mikrobiologi Patogenesis dan Imunologi",
+						"Pembuatan Makanan yang Melibatkan Mikroba",
+						"Teknik Rekayasa Genetik",
+						"Kultur Sel",
+						"Fermentasi"
+					],
+					"pekerjaan": [
+						"Industri Makanan",
+						"Quality Assurance",
+						"Quality Control",
+						"Lembaga Penelitian",
+						"Konsultan Pengelolaan Limbah Berbasis Mikroba"
+					]
+				},
+				{
+					"id": 4,
+					"nama": "Rekayasa Hayati",
+					"kode": "rekayasa-hayati",
+					"deskripsi": "Mempelajari sistem produksi dengan agen hayati berupa tumbuhan agar sistem produksi berjalan dengan efisien dan efektif.",
+					"mempelajari": [
+						"Bioprospek Tumbuhan Tropika",
+						"Energi Rekayasa Hayati",
+						"Neraca Massa",
+						"Bioteknologi Tumbuhan",
+						"Permodelan Dinamik Rekayasa Hayati"
+					],
+					"pekerjaan": [
+						"Bidang Perencanaan Sistem Produksi Massal",
+						"Dosen"
+					]
+				},
+				{
+					"id": 5,
+					"nama": "Kimia",
+					"kode": "kimia",
+					"deskripsi": "Mempelajari struktur, komposisi, dan sifat materi dari skala atom sampai molekul, dan bagaimana mereka berinteraksi membentuk materi yang dapat kita temukan di kehidupan sehari-hari.",
+					"mempelajari": [
+						"Kimia Organik",
+						"Kimia Non-organik",
+						"Bioteknologi Industri",
+						"Kimia Kontekstual",
+						"Kinetika dan Katalisis"
+					],
+					"pekerjaan": [
+						"Industri Kimia",
+						"Quality Control",
+						"Staf Peneliti",
+						"Dosen"
+					]
+				},
+				{
+					"id": 6,
+					"nama": "Matematika",
+					"kode": "matematika",
+					"deskripsi": "Mempelajari prinsip dasar dan aplikasi konsep matematika murni seperti persamaan diferensial, aljabar, geometri, dan teori peluang.",
+					"mempelajari": [
+						"Dasar-Dasar Matematika",
+						"Analisis",
+						"Aljabar",
+						"Matematika Terapan",
+						"Geometri Analisis"
+					],
+					"pekerjaan": [
+						"Industri Keuangan",
+						"Quality Control",
+						"Masalah Permodelan",
+						"Analisis Risiko",
+						"Instansi Pemerintah",
+						"Akademisi"
+					]
+				},
+				{
+					"id": 7,
+					"nama": "Akturia",
+					"kode": "akturia",
+					"deskripsi": "Mempelajari analisis dan pengelolaan risiko finansial di masa depan.",
+					"mempelajari": [
+						"Dasar-Dasar Matematika",
+						"Statistika Matematika",
+						"Algoritma dan Perangkat Lunak",
+						"Permodelan Risiko",
+						"Makroekonomi dan Mikroekonomi"
+					],
+					"pekerjaan": [
+						"Asuransi",
+						"Industri Keuangan",
+						"Konsultan",
+						"Dosen"
+					]
+				},
+				{
+					"id": 8,
+					"nama": "Astronomi",
+					"kode": "astronomi",
+					"deskripsi": "Mempelajari benda-benda langit dengan menerapkan ilmu fisika. Mulai dari menganalisis, mempelajari struktur, sifat fisik, dan kosmologi.",
+					"mempelajari": [
+						"Pengantar Instrumen Astronomi",
+						"Tata Surya",
+						"Fisika Bintang",
+						"Galaksi",
+						"Kosmologi"
+					],
+					"pekerjaan": [
+						"Lembaga Penerbangan dan Antariksa Nasional (LAPAN)",
+						"Perusahaan yang Berkaitan dengan Antariksa",
+						"Jurnalis Sains",
+						"Staf Peneliti",
+						"Dosen"
+					]
+				},
+				{
+					"id": 9,
+					"nama": "Meteorologi",
+					"kode": "meteorologi",
+					"deskripsi": "Mempelajari proses fisis dan gejala cuaca yang terjadi di dalam atmosfer, terutama dalam lapisan bawah (troposfer).",
+					"mempelajari": [
+						"Bumi dan Komponennya",
+						"Gejala Alam",
+						"Penanggulangan Bencana",
+						"Modifikasi Cuaca",
+						"Instrumentasi Meteorologi"
+					],
+					"pekerjaan": [
+						"BMKG",
+						"BPPT",
+						"Staf Peneliti",
+						"Analisis di Bidang Pertanian"
 					]
 				}
 			]
