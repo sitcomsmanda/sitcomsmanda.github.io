@@ -747,6 +747,114 @@
 					]
 				}
 			]
+		},
+		{
+			"id": 4,
+			"nama": "Fakultas Ilmu Komputer",
+			"kode": "fakultas-ilmu-komputer",
+			"faIcon": "fa-solid fa-computer",
+			"jurusan": [
+				{
+					"id": 0,
+					"nama": "Sistem Informasi",
+					"kode": "sistem-informasi",
+					"deskripsi": "Mempelajari tentang aplikasi teknologi informasi untuk mendukung operasi suatu organisasi.",
+					"mempelajari": [
+						"Algoritma dan Pemrograman",
+						"Keamanan Komputer",
+						"Jaringan Komputer",
+						"Tata Kelola Teknologi Informasi",
+						"Desain Basis Data"
+					],
+					"pekerjaan": [
+						"Manajer di Bidang Teknologi Informasi",
+						"Sistem Analis",
+						"Auditor Sistem Informasi",
+						"Database Administrator",
+						"Network Administrator",
+						"Web Designer",
+						"Web Administrator",
+						"Staf Perpajakan"
+					]
+				},
+				{
+					"id": 1,
+					"nama": "Sistem Komputer",
+					"kode": "sistem-komputer",
+					"deskripsi": "Mempelajari rancangan dan pengembangan komponen perangkat keras maupun perangkat lunak dari komputer sebagai suatu sistem.",
+					"mempelajari": [
+						"Algoritma dan Pemrograman",
+						"Analisis Sistem Kerja",
+						"Kriptografi",
+						"Sistem Berbasis Data",
+						"Pemrograman Web"
+					],
+					"pekerjaan": [
+						"System Engineer",
+						"Network Administrator",
+						"Web Developer",
+						"Research and Development Engineer"
+					]
+				},
+				{
+					"id": 2,
+					"nama": "Teknologi Informasi",
+					"kode": "teknologi-informasi",
+					"deskripsi": "Mempelajari tentang perencangan teknologi, implementasi, pengembangan, manajemen atau dukungan terhadap sistem informasi yang berbasis komputer",
+					"mempelajari": [
+						"Proyek Manajemen",
+						"Information Security",
+						"Sistem Operasi",
+						"Software Engineering"
+					],
+					"pekerjaan": [
+						"Industri Pengolahan Data dan Informasi",
+						"Industri Perangkat Lunak",
+						"Institusi Pendidikan",
+						"Lembaga Pemerintah",
+						"Pusat Penelitian"
+					]
+				},
+				{
+					"id": 3,
+					"nama": "Teknik Informatika",
+					"kode": "teknik-informatika-2",
+					"deskripsi": "Mempelajari tentang pengembangan ilmu komputer, khususnya di perangkat lunak.",
+					"mempelajari": [
+						"Pengantar Teknologi Informasi",
+						"Pemrograman Berorientasi Objek",
+						"Organisasi dan Arsitektur Komputer",
+						"Logika Informasi"
+					],
+					"pekerjaan": [
+						"Software Developer",
+						"System Analyst",
+						"Web Engineer",
+						"Database Specialist",
+						"IT Support"
+					]
+				},
+				{
+					"id": 4,
+					"nama": "Ilmu Komputer",
+					"kode": "ilmu-komputer",
+					"deskripsi": "Mempelajari penguasaan dan pemanfaatan teknologi komputasi. Mulai dari perangkat lunak dan keras, sampai algoritma pemrograman.",
+					"mempelajari": [
+						"Statistika",
+						"Dasar Komputer",
+						"Pengolahan Data",
+						"Aljabar Linear Matriks",
+						"Algoritma dan Pemrograman"
+					],
+					"pekerjaan": [
+						"System Engineer",
+						"Network Engineer",
+						"Network Profesional",
+						"Robotics Engineer",
+						"Konsultan Teknologi Informasi"
+					]
+				}
+			]
 		}
 	],
 	"soshum": [
