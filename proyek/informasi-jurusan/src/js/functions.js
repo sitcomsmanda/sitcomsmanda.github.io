@@ -1,3 +1,6 @@
+// To collapse first accordion item
+let collapseFirst = true;
+
 // ! MAIN ROW FUNCTIONS
 const constructRow = (data) => {
 	return `
@@ -44,11 +47,11 @@ const constructAccordionItem = (data) => {
 					id="flush-${jurusan.kode}-header"
 				>
 					<button
-						class="accordion-button fw-semibold ${jurusan.id != 0 ? `collapsed` : ``}"
+						class="accordion-button fw-semibold ${collapseFirst ? `` : `collapsed`}"
 						type="button"
 						data-bs-toggle="collapse"
 						data-bs-target="#flush-${jurusan.kode}"
-						aria-expanded="${jurusan.id == 0 ? `true` : `false`}"
+						aria-expanded="${collapseFirst ? `true` : `false`}"
 						aria-controls="flush-${jurusan.kode}"
 					>
 						${jurusan.nama}
@@ -56,7 +59,7 @@ const constructAccordionItem = (data) => {
 				</h2>
 				<div
 					id="flush-${jurusan.kode}"
-					class="accordion-collapse collapse ${jurusan.id == 0 ? `show` : ``}"
+					class="accordion-collapse collapse ${collapseFirst ? `show` : ``}"
 					aria-labelledby="flush-${jurusan.kode}-header"
 					data-bs-parent="#accordion-${data.kode}"
 				>
@@ -90,7 +93,11 @@ const constructAccordionItem = (data) => {
 
 const constructListItem = (data) => {
 	let lists = ``;
-	data.forEach((item) => {
+	data.forEach((item, i) => {
+		if (i >= 1) {
+			// To set only teknik informatika
+			collapseFirst = false;
+		}
 		lists += `
 			<li>
 				${item}
