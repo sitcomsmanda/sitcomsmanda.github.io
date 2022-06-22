@@ -800,7 +800,7 @@
 					"id": 2,
 					"nama": "Teknologi Informasi",
 					"kode": "teknologi-informasi",
-					"deskripsi": "Mempelajari tentang perencangan teknologi, implementasi, pengembangan, manajemen atau dukungan terhadap sistem informasi yang berbasis komputer",
+					"deskripsi": "Mempelajari tentang perencangan teknologi, implementasi, pengembangan, manajemen atau dukungan terhadap sistem informasi yang berbasis komputer.",
 					"mempelajari": [
 						"Proyek Manajemen",
 						"Information Security",
@@ -852,6 +852,199 @@
 						"Network Profesional",
 						"Robotics Engineer",
 						"Konsultan Teknologi Informasi"
+					]
+				}
+			]
+		},
+		{
+			"id": 5,
+			"nama": "Fakultas Pertanian",
+			"kode": "fakultas-pertanian",
+			"faIcon": "fa-solid fa-wheat-awn",
+			"jurusan": [
+				{
+					"id": 0,
+					"nama": "Agroteknologi",
+					"kode": "agroteknologi",
+					"deskripsi": "Mempelajari penerapan teknologi dan budidaya tanaman sesuai dengan prinsip pertanian jangka panjang.",
+					"mempelajari": [
+						"Pengantar Bioteknologi Pertanian",
+						"Mikrobiologi",
+						"Genetika",
+						"Metodologi",
+						"Peneliti Pertanian"
+					],
+					"pekerjaan": [
+						"Bidang Perkebunan Pangan, Hortikultura, dan Kehutanan",
+						"Industri Pangan, Pakan, Farmaka, atau Biodesel",
+						"Lembaga Pemerintah Sebagai Manager Farm"
+					]
+				},
+				{
+					"id": 1,
+					"nama": "Rekayasa Pertanian",
+					"kode": "rekayasa-pertanian",
+					"deskripsi": "Mempelajari kombinasi ilmu pertanian konvensional dengan prinsip rekayasa biosistem.",
+					"mempelajari": [
+						"Pengantar Sains dan Teknologi Hayati",
+						"Genetika Pertanian",
+						"Kimia Pertanian",
+						"Termodinamika Sistem Ekologi",
+						"Teknologi Benih"
+					],
+					"pekerjaan": [
+						"Industri Pertanian",
+						"Lembaga Swadaya Masyarakat (LSM)",
+						"Lembaga Pemerintah",
+						"Dosen"
+					]
+				},
+				{
+					"id": 2,
+					"nama": "Teknologi Industri Pertanian",
+					"kode": "teknologi-industri-pertanian",
+					"deskripsi": "Mempelajari ",
+					"mempelajari": [
+						"Pengantar Agroindustri",
+						"Pengantar Bioteknologi",
+						"Analisis Bahan Hasil Pertanian",
+						"Teknologi Pengolahan",
+						"Penyimpanan dan Penggudangan"
+					],
+					"pekerjaan": [
+						"Perusahaan Teknologi Agroindustri, Pangan, atau Manufaktur",
+						"Instansi Pemerintah",
+						"Dosen"
+					]
+				},
+				{
+					"id": 3,
+					"nama": "Teknologi Pascapanen",
+					"kode": "teknologi-pascapanen",
+					"deskripsi": "Mempelajari teknik rekayasa pertanian yang berbasis bioproses atau biosistem.",
+					"mempelajari": [
+						"Fisiologi Pascapanen",
+						"Pengendalian Hama dan Patogen Pascapanen",
+						"Teknologi Pengemasan Produk",
+						"Teknologi Pengawetan",
+						"Manajemen Logistik"
+					],
+					"pekerjaan": [
+						"Industri Pertanian dan Perkebunan",
+						"Industri Peternakan, Benih, Kesehatan, dan Farmasi",
+						"Inovator Peralatan Pertanian dan Pengolahan Hasil Pertanian",
+						"Dosen"
+					]
+				},
+				{
+					"id": 4,
+					"nama": "Teknik Pengairan",
+					"kode": "teknik-pengairan",
+					"deskripsi": "Mempelajari usaha mengatur air yang meliputi irigasi, reklamasi, pengaturan, dan pengendalian banjir.",
+					"mempelajari": [
+						"Mekanika Fluida",
+						"Hidrolika Saluran Tertutup",
+						"Sistem Drainase",
+						"Konservasi Waduk",
+						"Hidrometeorologi"
+					],
+					"pekerjaan": [
+						"Perusahaan Kontraktor Sumber Daya Air (waduk, bendungan, sungai)",
+						"Instansi Pemerintah",
+						"Dosen"
+					]
+				},
+				{
+					"id": 5,
+					"nama": "Ilmu Hama dan Penyakit Tumbuhan",
+					"kode": "ilmu-hama-penyakit-tumbuhan",
+					"deskripsi": "Mempelajari tentang pengamanan produksi pertanian dengan manajemen kesehatan tanaman.",
+					"mempelajari": [
+						"Pengelolaan Hama dan Penyakit Tanaman",
+						"Budidaya Tanaman Tahunan",
+						"Teknologi Mikrotik",
+						"Patogen Tumbuhan",
+						"Agroklimatologi"
+					],
+					"pekerjaan": [
+						"Industri Pembenihan",
+						"Industri Pupuk dan Pestisida",
+						"Lembaga Pemerintah",
+						"Perusahaan BUMN",
+						"Dosen"
+					]
+				},
+				{
+					"id": 6,
+					"nama": "Agronomi",
+					"kode": "agronomi",
+					"deskripsi": "Mempelajari cara pengelolaan tanaman pertanian di lapangan, kebun, sawah, agar jumlah panen meningkat dengan kualitas tinggi.",
+					"mempelajari": [
+						"Ilmu Tanaman dan Produksi Tanaman Pangan",
+						"Ilmu Tanaman Perkebunan",
+						"Pembiakan Tanaman",
+						"Produksi dan Pengolahan Benih",
+						"Hortikultura"
+					],
+					"pekerjaan": [
+						"Ahli Agronomi",
+						"Wirausaha Tani",
+						"Penyuluh di Lembaga Swadaya Masyarakat (LSM)",
+						"Dosen"
+					]
+				},
+				{
+					"id": 7,
+					"nama": "Agrobisnis",
+					"kode": "agrobisnis",
+					"deskripsi": "Mempelajari cara bisnis berbasis usaha pertanian atau bidang lain yang mendukungnya.",
+					"mempelajari": [
+						"Bidang Ekonomi Pertanian dan Agrobisnis",
+						"Teknologi Produksi Pakan Alami",
+						"Matematika Ekonomi",
+						"Sosiologi Pesisir"
+					],
+					"pekerjaan": [
+						"Badan Urusan Logistik",
+						"Badan Pusat Statistik (BPS)",
+						"Bank Indonesia",
+						"Departemen Keuangan",
+						"Akademisi"
+					]
+				},
+				{
+					"id": 8,
+					"nama": "Ilmu Tanah",
+					"kode": "ilmu-tanah",
+					"deskripsi": "Mempelajari tentang perencanaan dan pelaksanaan pembangunan berkelanjutan yang berkaitan dengan tanah.",
+					"mempelajari": [
+						"Pengelolaan Tanah dan Sumber Daya Tanah",
+						"Klimatologi Dasar",
+						"Agrohidrologi",
+						"Survei dan Pemetaan Tanah"
+					],
+					"pekerjaan": [
+						"Industri Pertanian, Perkebunan, atau Kehutanan",
+						"Lembaga Pemerintahan",
+						"Dosen"
+					]
+				},
+				{
+					"id": 9,
+					"nama": "Teknologi Pangan",
+					"kode": "teknologi-pangan",
+					"deskripsi": "Mempelajari tentang bahan pangan khususnya pascapanen agar menghasilkan produksi seoptimal mungkin.",
+					"mempelajari": [
+						"Mikrobiologi Dasar",
+						"Biokimia Pangan Dasar",
+						"Karakteristik Bahan Pangan",
+						"Teknologi Pengolahan Pangan"
+					],
+					"pekerjaan": [
+						"Pengembangan Produk Pangan",
+						"Bidang Ekspansi Pasar",
+						"Penerapan Sistem Pemrosesan Pangan",
+						"Penerapan Sistem Food Safety"
 					]
 				}
 			]
