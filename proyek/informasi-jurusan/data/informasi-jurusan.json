@@ -1053,7 +1053,7 @@
 			"id": 7,
 			"nama": "Fakultas Peternakan",
 			"kode": "fakultas-peternakan",
-			"faIcon": "fa-solid fa-farm",
+			"faIcon": "fa-solid fa-cow",
 			"jurusan": [
 				{
 					"id": 0,
