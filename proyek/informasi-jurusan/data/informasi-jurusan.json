@@ -1048,6 +1048,33 @@
 					]
 				}
 			]
+		},
+		{
+			"id": 7,
+			"nama": "Fakultas Peternakan",
+			"kode": "fakultas-peternakan",
+			"faIcon": "fa-solid fa-farm",
+			"jurusan": [
+				{
+					"id": 0,
+					"nama": "Ilmu Peternakan",
+					"kode": "ilmu-peternakan",
+					"deskripsi": "Mempelajari tentang pemeliharaan hewan ternak.",
+					"mempelajari": [
+						"Fisiologi Nutrisi",
+						"Pengetahuan Bahan Pakan",
+						"Teknologi Produksi Ruminansia Besar",
+						"Genetika Ternak"
+					],
+					"pekerjaan": [
+						"Industri Peternakan",
+						"Perusahaan Pakan Ternak",
+						"Perusahaan Obat Ternak",
+						"Wirausahawan",
+						"Dosen"
+					]
+				}
+			]
 		}
 	],
 	"soshum": [
