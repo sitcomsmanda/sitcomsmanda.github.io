@@ -1075,6 +1075,53 @@
 					]
 				}
 			]
+		},
+		{
+			"id": 8,
+			"nama": "Fakultas Kelautan dan Perikanan",
+			"kode": "fakultas-kelautan-perikanan",
+			"faIcon": "fa-solid fa-fish",
+			"jurusan": [
+				{
+					"id": 0,
+					"nama": "Ilmu dan Teknologi Kelautan",
+					"kode": "ilmu-teknologi-kelautan",
+					"deskripsi": "Mempelajari teknologi yang berhubungan dengan karakter, fenomena, serta proses fisika, kimia, geologi laut.",
+					"mempelajari": [
+						"Oseanografi",
+						"Meteorologi Laut",
+						"Klimatologi Laut",
+						"Bioteknologi Industri",
+						"Etika Perikanan dan Kelautan"
+					],
+					"pekerjaan": [
+						"Pusat Hidrografi dan Oseanografi",
+						"Lembaga Pertahanan dan Keamanan",
+						"BMKG",
+						"Staf Peneliti",
+						"Akademisi"
+					]
+				},
+				{
+					"id": 1,
+					"nama": "Ilmu Perikanan",
+					"kode": "ilmu-perikanan",
+					"deskripsi": "Mempelajari berbagai ilmu multidisiplin yang terdiri dari limnologi, oseanografi, biologi air tawar, biologi kelautan, biologi konservasi, ekologi perairan, dinamika populasi, ekonomi, dan manajemen.",
+					"mempelajari": [
+						"Ilmu Tanaman dan Produksi Tanaman Pangan",
+						"Pembiakan Tanaman",
+						"Produksi dan Pengolahan Benih",
+						"Ilmu Tanaman Perkebunan",
+						"Hortikultura"
+					],
+					"pekerjaan": [
+						"Ahli Agronomi",
+						"Wirausaha Tani",
+						"Penyuluh di Lembaga Swadaya Masyarakat (LSM)",
+						"Dosen"
+					]
+				}
+			]
 		}
 	],
 	"soshum": [
