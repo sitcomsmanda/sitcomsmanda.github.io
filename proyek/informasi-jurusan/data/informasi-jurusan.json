@@ -1122,6 +1122,110 @@
 					]
 				}
 			]
+		},
+		{
+			"id": 9,
+			"nama": "Fakultas Kehutanan",
+			"kode": "fakultas-kehutanan",
+			"faIcon": "fa-solid fa-tree",
+			"jurusan": [
+				{
+					"id": 0,
+					"nama": "Manajemen Hutan",
+					"kode": "manajemen-hutan",
+					"deskripsi": "Mempelajari konsep pengelolaan sumber daya hutan berdasarkan prinsip kelestarian hasil.",
+					"mempelajari": [
+						"Investarisasi Sumber Daya Hutan",
+						"Klimatologi Hutan",
+						"Pengelolaan Kawasan Konservasi",
+						"Penyuluh Kehutanan",
+						"Pemanenan Hutan"
+					],
+					"pekerjaan": [
+						"Kementian Lingkungan Hidup dan Kehutanan",
+						"BUMN",
+						"Industri Kehutanan",
+						"Konsultan",
+						"Manager Farm",
+						"Akademisi"
+					]
+				},
+				{
+					"id": 1,
+					"nama": "Teknologi Hasil Hutan",
+					"kode": "teknologi-hasil-hutan",
+					"deskripsi": "Mempelajari cara memanfaatkan segala hasil hutan dengan teknologi agar menghasilkan produk hutan yang maksimal.",
+					"mempelajari": [
+						"Anatomi Kayu",
+						"Hasil Hutan Non-kayu",
+						"Teknologi Pengolahan Produk Ekstraktif",
+						"Kewirausahaan Hasil Hutan",
+						"Pengawetan Kayu",
+						"Kimia Kayu"
+					],
+					"pekerjaan": [
+						"Industri Kehutanan",
+						"Lembaga Swadaya Masyarakat (LSM)",
+						"Konsultan",
+						"Lembaga Pemerintah",
+						"Akademisi"
+					]
+				},
+				{
+					"id": 2,
+					"nama": "Konservasi Sumber Daya Hutan",
+					"kode": "konservasi-sumber-daya-hutan",
+					"deskripsi": "Mempelajari konsep-konsep perlindungan sumber daya hutan.",
+					"mempelajari": [
+						"Konservasi Sumber Daya Alam Hayati",
+						"Perilaku Satw Liar",
+						"Kebijakan dan Kelembagaan Konservasi",
+						"Etnobiologi Hutan"
+					],
+					"pekerjaan": [
+						"Industri Kehutanan",
+						"Lembaga Swadaya Masyarakat (LSM)",
+						"Staf Peneliti",
+						"Akademisi"
+					]
+				},
+				{
+					"id": 3,
+					"nama": "Silvikultur",
+					"kode": "silvikultur",
+					"deskripsi": "Mempelajari seni menumbuhkan hutan serta mengembangkan ilmu pengetahuan, teknologi, dan rehabilitasi hutan sehingga mampu berperan dalam meningkatkan produktivitas dan manfaat sumber daya hutan.",
+					"mempelajari": [
+						"Dendrologi",
+						"Ekologi Hutan",
+						"Genetika Hutan",
+						"Praktik Pengenalan Ekosistem Hutan"
+					],
+					"pekerjaan": [
+						"Industri Kehutanan",
+						"Lembaga Swadaya Masyarakat (LSM)",
+						"Staf Peneliti",
+						"Akademisi"
+					]
+				},
+				{
+					"id": 4,
+					"nama": "Budi Daya Hutan",
+					"kode": "budi-daya-hutan",
+					"deskripsi": "Mempelajari cara membudidayakan hutan berdasarkan prinsip kelestarian hasil dan fungsi dari ekosistem hutan.",
+					"mempelajari": [
+						"Genetika Hutan",
+						"Pemulihan Pohon",
+						"Ekologi Jenis Pohon Tropika",
+						"Pemantauan Kesehatan Hutan"
+					],
+					"pekerjaan": [
+						"Industri Kehutanan",
+						"Lembaga Swadaya Masyarakat (LSM)",
+						"Staf Peneliti",
+						"Akademisi"
+					]
+				}
+			]
 		}
 	],
 	"soshum": [
