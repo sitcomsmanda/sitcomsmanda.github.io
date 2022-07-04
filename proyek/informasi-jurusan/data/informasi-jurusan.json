@@ -335,7 +335,7 @@
 						"Kementerian Perumahan Rakyat",
 						"Dinas Tata Kota",
 						"Developer dan Kontraktor Properti",
-						"Aktivis di LSM (KATIGA, BIGS, Sawarung),",
+						"Aktivis di LSM (KATIGA, BIGS, Sawarung)",
 						"Konsultan"
 					]
 				}
@@ -1340,6 +1340,35 @@
 						"Lembaga Keuangan dan Perbankan Syariah",
 						"Perbankan Syariah",
 						"Bisnis Syariah"
+					]
+				}
+			]
+		},
+		{
+			"id": 1,
+			"nama": "Fakultas Ilmu Sosial dan Politik",
+			"kode": "fakultas-ilmu-sosial-politik",
+			"faIcon": "fa-solid fa-users",
+			"jurusan": [
+				{
+					"id": 0,
+					"nama": "Ilmu Pemerintahan",
+					"kode": "ilmu-pemerintahan",
+					"deskripsi": "Mempelajari persoalan organisasi,  administrasi, manajemen, dan kepemimpinan dalam penyelenggaraan organisasi publik.",
+					"mempelajari": [
+						"Teori Politik dan Pemerintahan",
+						"Sistem Sosial",
+						"Budaya Indonesia",
+						"Sistem Hukum Indonesia",
+						"Statistik Sosial",
+						"Ekologi Pemerintahan"
+					],
+					"pekerjaan": [
+						"Jurnalis Pemerintahan",
+						"Konsultan Pemerintahan",
+						"Anggota Partai Politik",
+						"Aktivis di LSM (KATIGA, BIGS, Sawarung)",
+						"Dosen"
 					]
 				}
 			]
