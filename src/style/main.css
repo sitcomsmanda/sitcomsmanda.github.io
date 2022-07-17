@@ -273,3 +273,7 @@ footer a:visited {
     font-size: 1.25em;
   }
 }
+
+.visually-hidden {
+  display: none;
+}
