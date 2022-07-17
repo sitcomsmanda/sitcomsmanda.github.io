@@ -98,6 +98,11 @@ main {
   outline: none;
 }
 
+.load-more {
+  color: var(--secondary2);
+  font-size: 1em;
+}
+
 /* Un-ordered List */
 .projects-container {
   box-sizing: border-box;
