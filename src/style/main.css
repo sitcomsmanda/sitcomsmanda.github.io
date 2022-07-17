@@ -116,7 +116,7 @@ main {
 
   box-sizing: border-box;
   width: 95vw;
-  min-height: 100vh;
+  min-height: 60vh;
   padding: 20px;
   margin: auto;
   overflow: auto;
