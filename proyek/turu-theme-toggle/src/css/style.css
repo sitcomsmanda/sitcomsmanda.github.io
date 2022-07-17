@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Futura";
+  src: url("../font/Futura.ttf");
+}
+
 * {
   user-select: none;
   -webkit-tap-highlight-color: transparent;
@@ -10,6 +15,7 @@
 body {
   margin: 0;
   transition: 150ms ease all;
+  font-family: "Futura";
 }
 
 .light {
