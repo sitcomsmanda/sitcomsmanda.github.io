@@ -57,6 +57,7 @@ body.addEventListener("keyup", function (e) {
       });
     } else {
       // loop through the list
+      let hiddenLi = 0;
       for (let i = 0; i < li.length; i++) {
         li[i].classList.remove("visually-hidden");
         // select the text content
@@ -72,7 +73,14 @@ body.addEventListener("keyup", function (e) {
           li[i].style.display = "";
         } else {
           li[i].style.display = "none";
+          hiddenLi++;
         }
+      }
+      if (hiddenLi === li.length) {
+        loadMore.style.display = "";
+        loadMore.innerHTML = "No Content";
+      } else {
+        loadMore.innerHTML = "Load More";
       }
     }
   }
