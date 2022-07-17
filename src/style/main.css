@@ -99,7 +99,7 @@ main {
 }
 
 /* Un-ordered List */
-.projects {
+.projects-container {
   box-sizing: border-box;
   width: 95vw;
   padding: 20px;
@@ -114,7 +114,7 @@ main {
   scrollbar-width: none; /* Firefox */
 }
 
-.projects::-webkit-scrollbar {
+.projects-container::-webkit-scrollbar {
   display: none;
 }
 
@@ -200,7 +200,7 @@ footer a:visited {
 /* Handphone */
 @media screen and (min-width: 375px) {
   .search-box,
-  .projects {
+  .projects-container {
     width: 90vw;
   }
 }
@@ -212,7 +212,7 @@ footer a:visited {
   }
 
   .search-box,
-  .projects {
+  .projects-container {
     width: 80vw;
   }
 }
@@ -220,7 +220,7 @@ footer a:visited {
 /* Laptop */
 @media screen and (min-width: 920px) {
   .search-box,
-  .projects {
+  .projects-container {
     width: 70vw;
   }
 
@@ -247,7 +247,7 @@ footer a:visited {
     font-size: 1em;
   }
 
-  .projects {
+  .projects-container {
     padding: 30px;
   }
 
