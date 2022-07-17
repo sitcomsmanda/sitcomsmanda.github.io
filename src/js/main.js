@@ -49,6 +49,7 @@ body.addEventListener("keyup", function (e) {
 
     if (search === "") {
       li.forEach((item, index) => {
+        item.style.display = "";
         if (index > maxItems - 1) {
           item.classList.add(hiddenClass);
         }
@@ -73,12 +74,6 @@ body.addEventListener("keyup", function (e) {
           li[i].style.display = "none";
         }
       }
-    }
-
-    // Remove the value if user press Escape
-    if (e.code === "Escape") {
-      e.target.value = "";
-      li.forEach((x) => (x.style.display = ""));
     }
   }
 });
