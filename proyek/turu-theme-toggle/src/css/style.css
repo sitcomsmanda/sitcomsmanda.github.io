@@ -9,7 +9,25 @@
 
 body {
   margin: 0;
-  background-color: #f1f9f9;
+  transition: 150ms ease all;
+}
+
+.light {
+  background-color: #e3e3e3;
+}
+
+.light.dark {
+  background-color: #141414;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  margin: auto;
 }
 
 .toggle-button-cover {
@@ -21,16 +39,23 @@ body {
 }
 
 .button-cover {
-  height: 100px;
+  height: 128px;
   margin: 20px;
-  background-color: #fff;
-  box-shadow: 0 10px 20px -8px #c5d6d6;
-  border-radius: 4px;
+  border-radius: 24px;
+  background: #e3e3e3;
+  /* background: linear-gradient(145deg, #f3f3f3, #cccccc); */
+  box-shadow: 6px 6px 9px #9f9f9f, -6px -6px 9px #ffffff;
+  transition: 150ms ease all;
+}
+
+.button-cover.dark {
+  border-radius: 24px;
+  background: #141414;
+  box-shadow: 6px 6px 9px #080808, -6px -6px 9px #202020;
+  /* background: linear-gradient(145deg, #141414, #111111); */
 }
 
 .button-cover:before {
-  counter-increment: button-counter;
-  content: counter(button-counter);
   position: absolute;
   right: 0;
   bottom: 0;
@@ -65,7 +90,7 @@ body {
 }
 
 .button.b2 {
-  border-radius: 2px;
+  border-radius: 200px;
 }
 
 .checkbox {
@@ -85,50 +110,49 @@ body {
 
 .layer {
   width: 100%;
-  background-color: #ebf7fc;
-  transition: 0.3s ease all;
+  background-color: #c43f8c;
+  transition: 0.3s ease-in all;
   z-index: 1;
 }
 
-/* Button 17 */
-#button-17 .knobs:before,
-#button-17 .knobs span {
-  content: "YES";
+/* Button 1 */
+#button-1 .knobs:before,
+#button-1 .knobs span {
+  box-sizing: border-box;
   position: absolute;
   top: 4px;
   left: 4px;
-  width: 20px;
-  height: 10px;
-  color: #fff;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 1;
-  padding: 9px 4px;
+  width: 28px;
+  height: 28px;
+  color: #000;
 }
 
-#button-17 .knobs:before {
+#button-1 .knobs:before {
+  content: url("../img/icon/sun.svg");
+  width: 20px;
+  top: 8px;
+  left: 8px;
   transition: 0.3s ease all, left 0.5s cubic-bezier(0.18, 0.89, 0.35, 1.15);
   z-index: 2;
 }
 
-#button-17 .knobs span {
-  background-color: #03a9f4;
+#button-1 .knobs span {
+  background-color: #f1f9f9;
   border-radius: 2px;
-  transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
+  transition: 0.3s ease-in all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
   z-index: 1;
+  border-radius: 50%;
 }
 
-#button-17 .checkbox:checked + .knobs:before {
-  content: "NO";
+#button-1 .checkbox:checked + .knobs:before {
+  content: url("../img/icon/moon.svg");
+  left: 46px;
+}
+
+#button-1 .checkbox:checked + .knobs span {
   left: 42px;
 }
 
-#button-17 .checkbox:checked + .knobs span {
-  left: 42px;
-  background-color: #f44336;
-}
-
-#button-17 .checkbox:checked ~ .layer {
-  background-color: #fcebeb;
+#button-1 .checkbox:checked ~ .layer {
+  background-color: #c43f8c;
 }
