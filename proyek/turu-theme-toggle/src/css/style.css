@@ -34,6 +34,10 @@ main {
 
 .container {
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .toggle-button-cover {
@@ -161,4 +165,11 @@ main {
 
 #button-1 .checkbox:checked ~ .layer {
   background-color: #32cc46;
+}
+
+.header {
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 2.5em;
 }
