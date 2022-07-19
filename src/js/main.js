@@ -45,7 +45,13 @@ body.addEventListener("keyup", function (e) {
     const search = e.target.value.toUpperCase();
     const li = document.querySelectorAll(".project");
     const loadMore = document.querySelector("#loadMore");
-    loadMore.style.display = "none";
+
+    if (search !== "") {
+      loadMore.style.display = "none";
+    } else {
+      loadMore.style.display = "";
+      loadMore.innerHTML = "See More";
+    }
 
     if (search === "") {
       li.forEach((item, index) => {
@@ -78,9 +84,7 @@ body.addEventListener("keyup", function (e) {
       }
       if (hiddenLi === li.length) {
         loadMore.style.display = "";
-        loadMore.innerHTML = "No Content";
-      } else {
-        loadMore.innerHTML = "Load More";
+        loadMore.innerHTML = "Not Found";
       }
     }
   }
